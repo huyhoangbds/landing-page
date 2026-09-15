@@ -1,0 +1,124 @@
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+.car-grid > div {
+  min-width: 0;
+}
+.car-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--background);
+  height: 100%;
+  transition: box-shadow 0.2s;
+}
+.car-card:hover {
+  box-shadow: 0 12px 28px color-mix(in srgb, var(--color-ink) 6.27%, transparent);
+}
+.car-image {
+  display: block;
+  position: relative;
+  background: var(--color-surface-light);
+  overflow: hidden;
+}
+.car-image img {
+  width: 100%;
+  aspect-ratio: 1.67;
+  object-fit: contain;
+  transition: transform 0.4s;
+}
+.car-image:hover img {
+  transform: scale(1.045);
+}
+.car-arrow {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background: var(--color-white);
+  border: 1px solid var(--color-line-light);
+  color: var(--color-ink);
+  padding: 6px;
+  border-radius: 50%;
+}
+.car-info {
+  padding: 23px;
+}
+.car-category {
+  font-size: 9px;
+  color: var(--muted);
+  letter-spacing: 0.13em;
+}
+.car-info h3 {
+  margin: 8px 0 18px;
+  font-size: 24px;
+}
+.price-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+}
+.price-row > span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.price-row strong {
+  color: var(--blue);
+  font-size: 23px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.car-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+.car-actions .button {
+  flex: 1;
+}
+.fine-print {
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+.muted-section {
+  background: var(--surface);
+}
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.support-card {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 32px;
+  text-align: left;
+  background: var(--background);
+  color: var(--foreground);
+}
+.support-card > svg {
+  color: var(--blue);
+  width: 30px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+.support-card h3 {
+  margin-bottom: 12px;
+}
+.support-card p {
+  font-size: 14px;
+}
+.support-card > span:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 30px;
+}

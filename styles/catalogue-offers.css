@@ -1,0 +1,151 @@
+/* Passenger catalogue: model lettering behind the car, stronger price emphasis. */
+.catalogue-title {
+  display: inline-block;
+  color: var(--color-red);
+  font-weight: 800;
+  font-size: clamp(26px, 3.2vw, 44px);
+  letter-spacing: -.025em;
+  padding-bottom: 12px;
+  border-bottom: 3px solid currentColor;
+}
+.dark .catalogue-title { color: var(--color-red-on-dark); }
+.car-card-showcase .car-image {
+  container-type: inline-size;
+  isolation: isolate;
+  background: var(--color-white);
+}
+.car-model-backdrop {
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40cqw;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -.08em;
+  color: var(--color-image-lettering);
+  white-space: nowrap;
+  user-select: none;
+  pointer-events: none;
+}
+.car-model-wide { font-size: 31cqw; }
+.car-card-showcase .car-image img {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 1.45;
+  padding: 30px 12px 0;
+  object-fit: contain;
+}
+.car-card-showcase .car-arrow { z-index: 2; }
+.car-card-showcase .price-row {
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 13px 14px;
+  border: 1px solid color-mix(in srgb, var(--color-primary) 16.86%, transparent);
+  border-radius: 8px;
+  background: var(--soft);
+  gap: 4px 10px;
+}
+.car-card-showcase .price-row > span { color: var(--foreground); font-size: 12px; }
+.car-card-showcase .price-row strong {
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 639px) {
+  .catalogue-title { font-size: clamp(24px, 6.3vw, 34px); padding-bottom: 10px; }
+  .car-card-showcase .car-image img { padding-top: 34px; }
+}
+/* Green identity for the commercial vehicle catalogue. */
+.commercial-catalogue {
+  --blue: var(--color-green);
+  --soft: var(--color-green-soft);
+  background: var(--color-green-surface);
+}
+.commercial-catalogue .catalogue-title { color: var(--color-green); }
+.commercial-catalogue .car-model-backdrop { color: var(--color-green-lettering); text-transform: uppercase; }
+.car-model-long { font-size: 15cqw; top: 20px; letter-spacing: -.055em; }
+.commercial-catalogue .car-card-showcase .price-row { border-color: color-mix(in srgb, var(--color-green) 20.00%, transparent); }
+.commercial-catalogue .car-category { color: var(--color-green); }
+.commercial-catalogue .car-actions .button { background: var(--color-green); }
+.commercial-catalogue .car-actions .button:hover { background: var(--color-green-hover); }
+.commercial-catalogue .car-actions .icon-button { color: var(--blue); border-color: color-mix(in srgb, var(--color-green) 25.10%, transparent); }
+.commercial-catalogue .car-arrow { color: var(--color-green); border-color: color-mix(in srgb, var(--color-green) 18.82%, transparent); }
+.dark .commercial-catalogue { --blue: var(--color-green-on-dark); --soft: var(--color-green-dark-soft); background: var(--color-green-night); }
+.dark .commercial-catalogue .catalogue-title,
+.dark .commercial-catalogue .car-category { color: var(--color-green-on-dark); }
+.dark .commercial-catalogue .car-card-showcase .price-row { border-color: color-mix(in srgb, var(--color-green-on-dark) 25.10%, transparent); }
+/* Highlight the current month's offers without changing other sections. */
+.offers-featured {
+  padding: 28px;
+  border: 1px solid var(--color-orange-border);
+  border-radius: 20px;
+  background: linear-gradient(125deg, var(--color-orange-start), var(--color-orange-middle) 65%, var(--color-orange-end));
+  box-shadow: 0 12px 30px color-mix(in srgb, var(--color-shadow-orange) 14.90%, transparent);
+}
+.offers-featured .section-heading {
+  margin-bottom: 24px;
+}
+.offers-featured .section-heading h2 {
+  color: var(--color-white);
+  font-size: clamp(23px, 3vw, 36px);
+  line-height: 1.35;
+  margin-top: 10px;
+}
+.offers-hot {
+  display: inline-block;
+  padding: 5px 16px;
+  background: var(--color-hot-yellow);
+  color: var(--color-hot-ink);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.offers-featured .offer {
+  background: var(--color-offer-card);
+  border-color: var(--color-offer-border);
+  color: var(--color-ink);
+}
+.offers-featured .offer h3 { color: var(--color-ink); }
+.offers-featured .offer p { color: var(--color-ink-subtle); }
+.offers-featured .offer-icon { background: var(--color-offer-icon); color: var(--color-orange-ink); }
+@media (hover: hover) {
+  .offers-featured .offer:hover { background: var(--color-offer-hover); border-color: var(--color-offer-hover-border); box-shadow: 0 10px 24px color-mix(in srgb, var(--color-shadow-rust) 14.90%, transparent); }
+  .offers-featured .offer:hover .offer-icon { background: var(--color-orange-ink); color: var(--color-white); }
+}
+@media (max-width: 767px) {
+  .offers-featured { padding: 20px 14px; border-radius: 14px; }
+  .offers-featured .section-heading { margin-bottom: 18px; }
+}
+/* Angled promotional sticker attached to the panel's upper-right corner. */
+.offers-featured { position: relative; }
+.offers-featured .section-heading { padding-inline: 70px; }
+.offers-hot {
+  position: absolute;
+  top: -17px;
+  right: -8px;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 112px;
+  height: 62px;
+  padding: 0 5px 4px;
+  border: 2px solid var(--color-hot-edge);
+  border-radius: 55% 15% 45% 20%;
+  background: linear-gradient(145deg, var(--color-hot-start) 10%, var(--color-hot-middle) 55%, var(--color-hot-end));
+  color: var(--color-hot-text);
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 950;
+  font-style: italic;
+  letter-spacing: -0.06em;
+  text-shadow: 1px 2px 0 var(--color-hot-shadow), 2px 4px 0 var(--color-hot-shadow-deep);
+  box-shadow: 0 6px 0 var(--color-hot-base), 0 10px 16px color-mix(in srgb, var(--color-shadow-ink) 25.10%, transparent);
+  transform: rotate(12deg);
+  pointer-events: none;
+}

@@ -1,0 +1,67 @@
+/* Shared theme and interaction states. Product imagery keeps its studio white. */
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+body, .site-header, .site-footer, .topbar, .car-card, .mobile-nav,
+.consultation-dialog, .support-card, input, select, textarea, .icon-button {
+  transition: background-color var(--duration-theme) var(--ease-ui), color var(--duration-theme) var(--ease-ui), border-color var(--duration-theme) var(--ease-ui), box-shadow var(--duration-fast) var(--ease-ui);
+}
+.button { transition: background-color var(--duration-fast) var(--ease-ui), box-shadow var(--duration-fast) var(--ease-ui); }
+@media (hover: hover) and (pointer: fine) {
+  .button:hover { box-shadow: 0 5px 16px color-mix(in srgb, var(--color-primary) 22%, transparent); }
+  .icon-button:hover { background-color: var(--soft); }
+}
+.button:active, .icon-button:active { filter: brightness(.95); }
+button:disabled { opacity: .55; cursor: not-allowed; }
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px var(--background);
+}
+input, select, textarea { color: var(--foreground); background-color: var(--background); }
+input::placeholder, textarea::placeholder { color: var(--muted); opacity: .85; }
+input, select, textarea, .car-info, .footer-grid > div { min-width: 0; }
+.footer-grid, .draft-result { overflow-wrap: anywhere; }
+.notification-region { position: fixed; top: max(20px, env(safe-area-inset-top)); right: max(20px, env(safe-area-inset-right)); width: min(400px, calc(100vw - 32px)); z-index: 90; pointer-events: none; }
+.notification-card { display: flex; align-items: center; gap: 12px; padding: 14px; border: 1px solid var(--line); border-left: 4px solid var(--blue); border-radius: var(--radius-panel); background: var(--background); box-shadow: var(--shadow-panel); color: var(--blue); pointer-events: auto; animation: notice-enter 180ms var(--ease-ui); }
+.notification-card p { color: var(--foreground); font-size: 14px; flex: 1; }
+.notification-card .icon-button { flex-shrink: 0; }
+.feedback-heading { display: flex; align-items: center; gap: 9px; color: var(--blue); }
+.loading-state { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px; padding: 32px 20px; color: var(--muted); }
+.loading-compact { padding: 12px; font-size: 13px; }
+.loading-spinner { display: inline-block; width: 22px; height: 22px; border: 2px solid var(--line); border-top-color: var(--blue); border-radius: 50%; animation: loading-spin 800ms linear infinite; flex-shrink: 0; }
+.skeleton-lines { flex-basis: 100%; display: grid; gap: 14px; }
+.skeleton-lines span { height: 44px; border-radius: 8px; background: linear-gradient(100deg, var(--surface), var(--soft), var(--surface)); background-size: 200% 100%; animation: skeleton-shimmer 1.6s ease-in-out infinite; }
+.skeleton-lines span:last-child { width: 65%; }
+.image-loading-overlay { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
+.image-loading-overlay .loading-state { background: var(--background); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow-panel); }
+@keyframes notice-enter { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes loading-spin { to { transform: rotate(360deg); } }
+@keyframes skeleton-shimmer { to { background-position: -200% 0; } }
+@media (max-width: 399px) {
+  .header-inner { gap: 8px; }
+  .brand > span { font-size: 15px; letter-spacing: .05em; }
+  .brand small { font-size: 9px; }
+  .brand img { width: 34px; height: 34px; }
+  .header-actions { gap: 6px; }
+  .container { width: calc(100% - 28px); }
+  .car-info { padding: 16px; }
+  .car-info h3 { font-size: 24px; }
+  .car-actions { gap: 8px; }
+  .car-actions .button { padding-inline: 10px; gap: 6px; }
+  .dialog-body { padding: 24px 18px; }
+}
+@media (max-width: 767px) {
+  input, select, textarea { font-size: 16px; }
+  .notification-region { top: max(12px, env(safe-area-inset-top)); right: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+:where(main, section, article, aside, nav, dialog, table, th, td, div) {
+  transition: background-color var(--duration-theme) var(--ease-ui), color var(--duration-theme) var(--ease-ui), border-color var(--duration-theme) var(--ease-ui);
+}
+:where(input, textarea, select):user-invalid { border-color: var(--color-danger); }
+@media (prefers-reduced-motion: reduce) {
+  :where(main, section, article, aside, nav, dialog, table, th, td, div) { transition: none; }
+}

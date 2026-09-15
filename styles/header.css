@@ -1,0 +1,78 @@
+.topbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+  color: var(--muted);
+}
+.topbar .container {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 9px;
+}
+.topbar span,
+.topbar a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--background);
+  border-bottom: 1px solid var(--line);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  gap: 24px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.brand > span {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+}
+.brand small {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  margin-top: 5px;
+  color: var(--muted);
+}
+.desktop-nav {
+  display: flex;
+  gap: 29px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.desktop-nav a:hover {
+  color: var(--blue);
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mobile-menu-button {
+  display: none;
+}
+.mobile-nav {
+  padding: 12px 24px 24px;
+  border-top: 1px solid var(--line);
+  max-height: 75dvh;
+  overflow: auto;
+}
+.mobile-nav a {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 4px;
+  border-bottom: 1px solid var(--line);
+}

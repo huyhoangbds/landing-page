@@ -1,0 +1,309 @@
+.page {
+  padding-block: 36px 0;
+}
+.title {
+  font-size: clamp(25px, 3vw, 36px);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.35;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.hotline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-red);
+  font-size: clamp(18px, 2.1vw, 26px);
+  font-weight: 700;
+  text-align: center;
+  margin: 26px 0;
+  line-height: 1.45;
+}
+.intro {
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.intro h2 {
+  text-align: center;
+  font-size: clamp(19px, 2vw, 25px);
+  color: var(--color-coral);
+  line-height: 1.4;
+}
+.intro h2 span {
+  color: var(--blue);
+}
+.introNote {
+  text-align: center;
+  margin-top: 9px;
+  font-size: 14px;
+  font-style: italic;
+}
+.introGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 28px;
+  margin-top: 24px;
+}
+.introGrid ol {
+  list-style: decimal;
+  padding-left: 25px;
+  margin: 0;
+}
+.introGrid li {
+  padding: 5px 0 5px 4px;
+  font-size: 15px;
+}
+.introGrid li::marker {
+  color: var(--muted);
+}
+.introGrid li a {
+  color: var(--blue);
+  font-weight: 600;
+  text-underline-offset: 4px;
+}
+.introGrid li a:hover {
+  text-decoration: underline;
+}
+.introCar {
+  min-width: 0;
+}
+.introCar img {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+  background: var(--color-white);
+  border-radius: 6px;
+}
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 15px;
+}
+.priceNote {
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 22px 0 8px;
+}
+.model {
+  padding-block: 32px 26px;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 90px;
+}
+.modelGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  align-items: center;
+}
+.modelImage {
+  text-align: center;
+  min-width: 0;
+}
+.modelImage h2 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.modelImage img {
+  width: 100%;
+  max-height: 245px;
+  object-fit: contain;
+  background: var(--color-white);
+  border-radius: 6px;
+}
+.tableWrap {
+  min-width: 0;
+}
+.table {
+  min-width: 0;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid var(--line);
+  padding: 15px 18px;
+  overflow-wrap: anywhere;
+}
+.table thead th {
+  background: var(--surface);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.table thead th:last-child {
+  width: 42%;
+}
+.table small {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.table tbody th {
+  background: var(--background);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+.table td {
+  text-align: center;
+  color: var(--color-red);
+  font-size: 18px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.modelNote {
+  margin: 20px 0 0;
+  padding: 13px 18px;
+  background: var(--surface);
+  border-left: 3px solid var(--blue);
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.modelNote strong {
+  color: var(--color-coral);
+}
+.modelNote a {
+  color: var(--blue);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.contact {
+  margin-top: 32px;
+  padding: 32px 24px;
+  border: 1px solid var(--line);
+  background: var(--soft);
+  border-radius: 8px;
+  text-align: center;
+}
+.contact > svg {
+  color: var(--blue);
+  margin: 0 auto 14px;
+}
+.contact h2 {
+  font-size: clamp(21px, 2.4vw, 29px);
+  line-height: 1.4;
+}
+.contact p {
+  margin: 10px 0;
+}
+.contactPhone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--blue);
+}
+:global(.dark) .hotline,
+:global(.dark) .table td {
+  color: var(--color-red-on-dark);
+}
+:global(.dark) .intro h2,
+:global(.dark) .modelNote strong {
+  color: var(--color-coral-on-dark);
+}
+@media (max-width: 767px) {
+  .page {
+    padding-top: 26px;
+  }
+  .intro {
+    padding: 20px 16px;
+  }
+  .introGrid,
+  .modelGrid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .introGrid li {
+    font-size: 14px;
+  }
+  .hotline {
+    gap: 8px;
+  }
+  .hotline svg {
+    width: 20px;
+  }
+  .actions {
+    gap: 8px;
+  }
+  .actions > a,
+  .actions > button {
+    padding: 12px 8px;
+    font-size: 12px;
+  }
+  .model {
+    padding-block: 25px;
+  }
+  .modelImage img {
+    max-height: 240px;
+  }
+  .table th,
+  .table td {
+    padding: 12px 10px;
+  }
+  .table thead th {
+    font-size: 12px;
+  }
+  .table tbody th {
+    font-size: 13px;
+  }
+  .table td {
+    font-size: clamp(13px, 3.8vw, 17px);
+  }
+  .modelNote {
+    font-size: 12px;
+    padding: 12px;
+  }
+  .contact {
+    padding: 24px 16px;
+  }
+  .contactPhone {
+    font-size: 19px;
+  }
+}
+
+.modelVisual {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  background: var(--color-white);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.modelBackdrop {
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-image-lettering);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: -0.065em;
+  line-height: 1;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+.modelVisual img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  padding-top: 28px;
+  height: auto;
+}

@@ -1,0 +1,17 @@
+.root { display: flex; align-items: center; align-self: stretch; }
+.trigger { display: inline-flex; align-items: center; gap: 5px; color: var(--foreground); background: transparent; font: inherit; cursor: pointer; padding-block: 0; height: 100%; white-space: nowrap; }
+.trigger:hover, .trigger[aria-expanded="true"] { color: var(--blue); }
+.panel { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); width: min(1240px, calc(100vw - 36px)); padding: 20px; max-height: calc(100dvh - 100px); overflow-y: auto; background: var(--background); border: 1px solid var(--line); border-top: 3px solid var(--blue); box-shadow: 0 12px 28px color-mix(in srgb, var(--color-shadow-slate) 14.90%, transparent); border-radius: 0 0 12px 12px; }
+.panel[hidden] { display: none; }
+.grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; }
+.car { display: flex; flex-direction: column; align-items: center; gap: 7px; padding: 10px 6px; border-radius: 8px; text-align: center; font-size: 12px; }
+.car img { width: 100%; height: auto; aspect-ratio: 1.6; object-fit: contain; transition: transform .2s; }
+.car:hover, .car:focus-visible { background: var(--soft); color: var(--blue); }
+.car:hover img { transform: translateY(-3px); }
+.car::after { display: none; }
+.mobile .trigger { width: 100%; justify-content: space-between; padding: 16px 0; font-weight: 600; }
+.mobile .panel { position: static; width: 100%; transform: none; max-height: none; padding: 8px; box-shadow: none; border-radius: 8px; }
+.mobile .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.mobile .car { padding: 8px; font-size: 12px; }
+@media (min-width: 768px) and (max-width: 1023px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (prefers-reduced-motion: reduce) { .car img { transition: none; } }

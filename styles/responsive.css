@@ -1,0 +1,274 @@
+@media (min-width: 768px) {
+  .dark .dark\:flex {
+    display: flex;
+  }
+  .dark .dark\:hidden {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .desktop-nav {
+    gap: 16px;
+  }
+  .header-hotline {
+    display: none;
+  }
+  .offers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .car-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quick-link {
+    padding: 20px 13px;
+    gap: 10px;
+  }
+  .quick-link span {
+    font-size: 14px;
+  }
+  .quick-link small {
+    font-size: 8px;
+  }
+  .support-card {
+    padding: 23px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: calc(100% - 36px);
+  }
+  .section {
+    padding-block: 56px;
+  }
+  .topbar .container {
+    justify-content: center;
+    font-size: 9px;
+  }
+  .topbar a {
+    display: none;
+  }
+  .header-inner {
+    height: 62px;
+    gap: 10px;
+  }
+  .brand > span {
+    font-size: 18px;
+  }
+  .brand img {
+    width: 34px;
+  }
+  .brand small {
+    font-size: 8px;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: flex;
+  }
+  .header-actions {
+    gap: 7px;
+  }
+  .hero {
+    padding-top: 30px;
+  }
+  .eyebrow {
+    font-size: 9px;
+    margin-bottom: 13px;
+  }
+  .banner-wrap {
+    width: 100%;
+  }
+  .banner-image {
+    border-radius: 0;
+  }
+  .banner-controls {
+    right: 10px;
+    bottom: 8px;
+    gap: 7px;
+    padding: 2px;
+    font-size: 10px;
+  }
+  .banner-controls button {
+    padding: 3px;
+  }
+  .quick-links {
+    grid-template-columns: 1fr;
+    margin-top: 18px;
+  }
+  .quick-link {
+    padding: 16px 20px;
+  }
+  .quick-link + .quick-link {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .quick-link span {
+    font-size: 16px;
+  }
+  .quick-link small {
+    font-size: 8px;
+  }
+  .quick-link > svg:first-child {
+    width: 24px;
+  }
+  .section-heading {
+    margin-bottom: 28px;
+  }
+  .section-heading p {
+    font-size: 13px;
+  }
+  .offers-grid {
+    gap: 24px 12px;
+  }
+  .offer {
+    padding: 3px;
+  }
+  .offer h3 {
+    font-size: 16px;
+  }
+  .offer p {
+    font-size: 12px;
+  }
+  .offer-icon {
+    padding: 10px;
+    margin-bottom: 13px;
+  }
+  .car-info {
+    padding: 18px;
+  }
+  .car-grid {
+    gap: 16px;
+  }
+  .car-info h3 {
+    font-size: 22px;
+  }
+  .price-row strong {
+    font-size: 21px;
+  }
+  .support-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .support-card {
+    padding: 25px;
+  }
+  .support-card > svg {
+    margin-bottom: 17px;
+  }
+  .support-card > span:last-child {
+    margin-top: 20px;
+  }
+  .footer-top {
+    display: block;
+  }
+  .footer-top .button {
+    margin-top: 20px;
+  }
+  .footer-grid {
+    gap: 30px 20px;
+  }
+  .footer-top h2 {
+    font-size: 26px;
+  }
+  .contact-bar {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    border-radius: 0;
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
+    box-shadow: 0 -3px 18px color-mix(in srgb, var(--color-black) 6.67%, transparent);
+  }
+  .contact-bar > a:first-child,
+  .contact-bar button {
+    flex: 1;
+    justify-content: center;
+  }
+  .dialog-body {
+    padding: 28px 22px;
+  }
+  .dialog-body h2 {
+    font-size: 25px;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+}
+@media (max-width: 639px) {
+  .car-grid {
+    grid-template-columns: 1fr;
+  }
+  .car-image img {
+    aspect-ratio: 1.8;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .car-info {
+    padding: 22px;
+  }
+  .car-info h3 {
+    font-size: 26px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+.detail-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.detail-tabs a {
+  font-size: 13px;
+  border: 1px solid var(--line);
+  padding: 9px 15px;
+  border-radius: 5px;
+}
+.detail-tabs a:hover {
+  color: var(--blue);
+  background: var(--soft);
+}
+.detail-section {
+  margin-bottom: 50px;
+}
+.detail-section h2 {
+  margin-bottom: 24px;
+}
+.detail-photo {
+  width: 100%;
+  height: auto;
+  max-height: 850px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.policy-page {
+  min-height: 55vh;
+}
+.theme-to-light {
+  display: none;
+}
+.dark .theme-to-light {
+  display: inline-flex;
+}
+.dark .theme-to-dark {
+  display: none;
+}

@@ -1,0 +1,109 @@
+.hero {
+  padding-top: 44px;
+}
+.hero h1 {
+  font-size: clamp(34px, 4.1vw, 56px);
+}
+.hero h1 span {
+  color: var(--muted);
+}
+.banner-image {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--surface);
+}
+.banner-image > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+}
+.banner-controls {
+  position: absolute;
+  bottom: 18px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 6px;
+  border-radius: 7px;
+  background: color-mix(in srgb, var(--color-white) 94%, transparent);
+  color: var(--color-ink);
+  font-size: 12px;
+  font-weight: 700;
+}
+.banner-controls button {
+  background: transparent;
+  padding: 6px;
+  display: flex;
+}
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 26px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.quick-link {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 23px;
+  background: transparent;
+  text-align: left;
+  color: var(--foreground);
+}
+.quick-link + .quick-link {
+  border-left: 1px solid var(--line);
+}
+.quick-link > svg:first-child {
+  color: var(--blue);
+  width: 27px;
+  height: 27px;
+}
+.quick-link > svg:last-child {
+  margin-left: auto;
+  width: 18px;
+  color: var(--muted);
+}
+.quick-link span {
+  font-weight: 600;
+  font-size: 17px;
+}
+.quick-link small {
+  display: block;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+.quick-link:hover {
+  background: var(--surface);
+}
+.offers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px 28px;
+}
+.offer {
+  padding: 10px;
+}
+.offer-icon {
+  display: inline-flex;
+  padding: 13px;
+  background: var(--soft);
+  color: var(--blue);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.offer h3 {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  margin-bottom: 11px;
+}
+.offer p {
+  font-size: 13px;
+  line-height: 1.75;
+}

@@ -1,0 +1,136 @@
+/* Homepage revision: edge-to-edge banner and self-contained offer cards. */
+.hero.hero-banner {
+  padding-top: 0;
+}
+.hero-banner .banner-wrap {
+  width: 100%;
+  margin: 0;
+}
+.hero-banner .banner-image {
+  border-radius: 0;
+}
+.offers-section .offers-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.offers-section .offer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--background);
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.offers-section .offer-icon {
+  align-self: flex-start;
+  margin: 0;
+  padding: 10px;
+  flex-shrink: 0;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+.offers-section .offer-copy {
+  min-width: 0;
+}
+.offers-section .offer h3 {
+  margin-bottom: 6px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+@media (hover: hover) and (pointer: fine) {
+  .offers-section .offer:hover {
+    border-color: var(--blue);
+    background: var(--soft);
+    box-shadow: 0 12px 28px color-mix(in srgb, var(--color-primary) 7.84%, transparent);
+  }
+  .offers-section .offer:hover .offer-icon {
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+@media (max-width: 1023px) {
+  .offers-section .offers-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .offers-section .offer {
+    padding: 18px;
+  }
+}
+@media (max-width: 639px) {
+  .offers-section .offers-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .offers-section .offer {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+  }
+  .offers-section .offer h3 {
+    font-size: 17px;
+    margin-bottom: 7px;
+  }
+  .offers-section .offer p {
+    font-size: 13px;
+  }
+  .hero-banner .banner-controls button {
+    min-width: 36px;
+    min-height: 36px;
+  }
+}
+.offers-section + .quick-links {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+/* Compact navigation; retain comfortable touch targets. */
+.desktop-nav { gap: 22px; }
+.header-hotline.button.small { padding: 10px 13px; white-space: nowrap; }
+@media (max-width: 1023px) { .desktop-nav { gap: 16px; } }
+/* A compact, distinct action bar between offers and the car catalogue. */
+.offers-section { padding-top: 48px; padding-bottom: 28px; }
+.quick-links-featured {
+  margin-top: 0;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--color-primary) 10.20%, transparent);
+}
+.offers-section + .quick-links-featured { margin-bottom: 0; }
+.quick-links-featured .quick-link {
+  color: var(--color-white);
+  padding: 22px;
+  border-radius: 8px;
+  transition: background-color .2s ease;
+}
+.quick-links-featured .quick-link + .quick-link { border-color: color-mix(in srgb, var(--color-white) 21.96%, transparent); }
+.quick-links-featured .quick-link > svg:first-child {
+  color: var(--color-white);
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 9px;
+  background: color-mix(in srgb, var(--color-white) 12.16%, transparent);
+}
+.quick-links-featured .quick-link > svg:last-child { color: var(--color-white); }
+.quick-links-featured .quick-link small { color: var(--color-primary-border); }
+.quick-links-featured .quick-link:hover { background: var(--color-primary-hover); }
+.quick-links-featured .quick-link:focus-visible { outline-offset: -5px; outline-color: var(--color-white); }
+.quick-links-featured + .section { padding-top: 40px; }
+@media (max-width: 1023px) {
+  .quick-links-featured .quick-link { padding: 18px 14px; gap: 12px; }
+}
+@media (max-width: 767px) {
+  .offers-section { padding-top: 32px; padding-bottom: 20px; }
+  .quick-links-featured .quick-link { padding: 16px 18px; }
+  .quick-links-featured + .section { padding-top: 32px; }
+}

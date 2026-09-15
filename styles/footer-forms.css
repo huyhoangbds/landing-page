@@ -1,0 +1,192 @@
+.site-footer {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  padding-top: 55px;
+}
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 38px;
+}
+.footer-top h2 {
+  font-size: 30px;
+}
+.footer-top p {
+  font-size: 13px;
+  margin-top: 12px;
+}
+.footer-top .eyebrow {
+  font-size: 10px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1.2fr 1fr 0.7fr;
+  gap: 35px;
+}
+.footer-grid h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.footer-grid p,
+.footer-grid a {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.footer-grid a:hover {
+  color: var(--blue);
+}
+.footer-grid .certificate {
+  width: 120px;
+  max-height: 175px;
+  object-fit: contain;
+  object-position: top;
+}
+.contact-bar {
+  position: fixed;
+  right: 18px;
+  bottom: 20px;
+  z-index: 35;
+  display: flex;
+  gap: 7px;
+  padding: 7px;
+  background: var(--background);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  box-shadow: 0 4px 22px color-mix(in srgb, var(--color-black) 13.33%, transparent);
+}
+.contact-bar a,
+.contact-bar button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px;
+  border-radius: 5px;
+  font-size: 12px;
+  min-height: 44px;
+}
+.contact-bar > a:first-child {
+  background: var(--soft);
+  color: var(--blue);
+}
+.consultation-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(510px, calc(100% - 28px));
+  max-height: 90dvh;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--background);
+  color: var(--foreground);
+  overflow: auto;
+}
+.consultation-dialog::backdrop {
+  background: color-mix(in srgb, var(--color-overlay-ink) 60.00%, transparent);
+  backdrop-filter: blur(4px);
+}
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+.dialog-body {
+  padding: 34px;
+}
+.dialog-close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.dialog-body > .eyebrow {
+  padding-right: 30px;
+}
+.dialog-body h2 {
+  font-size: 27px;
+  padding-right: 10px;
+}
+.consultation-form {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+.consultation-form p {
+  font-size: 12px;
+}
+.consultation-form label {
+  font-size: 12px;
+  font-weight: 600;
+  display: grid;
+  gap: 6px;
+}
+.consultation-form input,
+.consultation-form select,
+.consultation-form textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--background);
+  color: var(--foreground);
+  font-size: 16px;
+}
+.consultation-form .fine-print {
+  margin: 0;
+  font-weight: 400;
+}
+.draft-result {
+  padding: 15px;
+  background: var(--soft);
+  border-radius: 7px;
+  font-size: 12px;
+  display: grid;
+  gap: 12px;
+}
+.intro {
+  max-width: 750px;
+  margin-block: 24px 35px;
+}
+.table-scroll {
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 480px;
+  text-align: left;
+}
+caption {
+  text-align: left;
+  color: var(--muted);
+  font-size: 12px;
+  padding-bottom: 16px;
+}
+th,
+td {
+  padding: 17px;
+  border-bottom: 1px solid var(--line);
+}
+th {
+  background: var(--surface);
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 15px;
+  z-index: 100;
+  background: var(--background);
+  padding: 15px;
+}
+.skip-link:focus {
+  top: 10px;
+}
+.mobile-only {
+  display: none;
+}

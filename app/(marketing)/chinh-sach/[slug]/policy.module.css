@@ -1,0 +1,22 @@
+.page { padding-block: 26px 44px; }
+.layout { display: grid; grid-template-columns: 240px minmax(0,1fr); gap: 38px; margin-top: 24px; align-items: start; }
+.sidebar { padding: 20px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); position: sticky; top: 88px; }
+.sidebar h2 { font-size: 17px; margin-bottom: 14px; }
+.sidebar nav { display: grid; gap: 6px; margin-bottom: 20px; }
+.sidebar nav a { padding: 10px; border-radius: 6px; font-size: 13px; }
+.sidebar nav a[aria-current="page"] { background: var(--color-primary); color: var(--color-white); }
+.sidebar > p, .sidebar > a { display: block; font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.sidebar > a { color: var(--blue); margin-top: 5px; }
+.article { min-width: 0; max-width: 850px; }
+.article h1 { font-size: clamp(28px,3.5vw,42px); margin-top: 10px; }
+.article .updated { font-size: 12px; margin-block: 12px 22px; color: var(--muted); }
+.article p { font-size: 15px; line-height: 1.85; margin-bottom: 14px; }
+.intro { color: var(--foreground); }
+.contents { display: grid; gap: 9px; padding: 18px; margin-block: 22px; border: 1px solid var(--line); border-radius: 8px; font-size: 13px; }
+.contents a:hover { color: var(--blue); }
+.article section { padding-top: 12px; margin-bottom: 16px; scroll-margin-top: 90px; }
+.article section h2 { font-size: 21px; line-height: 1.45; margin-bottom: 12px; }
+.contact { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 20px; border-radius: 8px; background: var(--soft); margin-top: 24px; font-size: 14px; }
+.contact strong { width: 100%; }
+.contact a { color: var(--blue); overflow-wrap: anywhere; }
+@media (max-width: 899px) { .layout { grid-template-columns: 1fr; gap: 24px; } .sidebar { position: static; padding: 16px; } .sidebar nav { grid-template-columns: repeat(2,minmax(0,1fr)); margin-bottom: 0; } .sidebar > p, .sidebar > a { display: none; } .article p { font-size: 14px; } }

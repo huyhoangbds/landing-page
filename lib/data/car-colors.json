@@ -1,0 +1,542 @@
+{
+  "vf-2": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF2",
+    "edition": "TH14V",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-2/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/vf-2/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "CE17",
+        "name": "Desat Silver",
+        "image": "/images/colors/vf-2/CE17.webp",
+        "swatch": "/images/colors/swatches/CE17.webp"
+      },
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/vf-2/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      },
+      {
+        "code": "CE1U",
+        "name": "Yellow",
+        "image": "/images/colors/vf-2/CE1U.webp",
+        "swatch": "/images/colors/swatches/CE1U.webp"
+      },
+      {
+        "code": "CE2G",
+        "name": "Sky Blue",
+        "image": "/images/colors/vf-2/CE2G.webp",
+        "swatch": "/images/colors/swatches/CE2G.webp"
+      },
+      {
+        "code": "CE21",
+        "name": "Rose Pink",
+        "image": "/images/colors/vf-2/CE21.webp",
+        "swatch": "/images/colors/swatches/CE21.webp"
+      },
+      {
+        "code": "CE2T",
+        "name": "Be Pebble",
+        "image": "/images/colors/vf-2/CE2T.webp",
+        "swatch": "/images/colors/swatches/CE2T.webp"
+      }
+    ]
+  },
+  "vf-3": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF3",
+    "edition": "TI1BV",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-3/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE1V",
+        "name": "Zenith Grey",
+        "image": "/images/colors/vf-3/CE1V.webp",
+        "swatch": "/images/colors/swatches/CE1V.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/vf-3/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "181U",
+        "name": "Summer Yellow Body - Infinity Blanc Roof",
+        "image": "/images/colors/vf-3/181U.webp",
+        "swatch": "/images/colors/swatches/181U.webp"
+      },
+      {
+        "code": "181Y",
+        "name": "Sky Blue - Infinity Blanc Roof",
+        "image": "/images/colors/vf-3/181Y.webp",
+        "swatch": "/images/colors/swatches/181Y.webp"
+      },
+      {
+        "code": "1821",
+        "name": "Rose Pink Body - Infinity Blanc Roof",
+        "image": "/images/colors/vf-3/1821.webp",
+        "swatch": "/images/colors/swatches/1821.webp"
+      },
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/vf-3/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      }
+    ]
+  },
+  "vf-5": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF5",
+    "edition": "GA12V",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-5/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE1V",
+        "name": "Zenith Grey",
+        "image": "/images/colors/vf-5/CE1V.webp",
+        "swatch": "/images/colors/swatches/CE1V.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/vf-5/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "111U",
+        "name": "Summer Yellow Body - Jet Black Roof",
+        "image": "/images/colors/vf-5/111U.webp",
+        "swatch": "/images/colors/swatches/111U.webp"
+      },
+      {
+        "code": "181Y",
+        "name": "Sky Blue - Infinity Blanc Roof",
+        "image": "/images/colors/vf-5/181Y.webp",
+        "swatch": "/images/colors/swatches/181Y.webp"
+      },
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/vf-5/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      }
+    ]
+  },
+  "vf-6": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF6",
+    "edition": "JB10V",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-6/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/vf-6/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE1V",
+        "name": "Zenith Grey",
+        "image": "/images/colors/vf-6/CE1V.webp",
+        "swatch": "/images/colors/swatches/CE1V.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/vf-6/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/vf-6/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      }
+    ]
+  },
+  "vf-7": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF7",
+    "edition": "GC15V",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-7/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/vf-7/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE1V",
+        "name": "Zenith Grey",
+        "image": "/images/colors/vf-7/CE1V.webp",
+        "swatch": "/images/colors/swatches/CE1V.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/vf-7/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/vf-7/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      }
+    ]
+  },
+  "vf-8": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF8",
+    "edition": "ND31V",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-8/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/vf-8/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE1M",
+        "name": "Crimson Red",
+        "image": "/images/colors/vf-8/CE1M.webp",
+        "swatch": "/images/colors/swatches/CE1M.webp"
+      },
+      {
+        "code": "CE22",
+        "name": "Ivy Green",
+        "image": "/images/colors/vf-8/CE22.webp",
+        "swatch": "/images/colors/swatches/CE22.webp"
+      },
+      {
+        "code": "2927",
+        "name": "Crimson Velvet - Mystery Bronze Roof",
+        "image": "/images/colors/vf-8/2927.webp",
+        "swatch": "/images/colors/swatches/2927.webp"
+      },
+      {
+        "code": "171V",
+        "name": "Zenith Grey - Desat Silver Roof",
+        "image": "/images/colors/vf-8/171V.webp",
+        "swatch": "/images/colors/swatches/171V.webp"
+      },
+      {
+        "code": "1V18",
+        "name": "Infinity Blanc - Zenith Grey Roof",
+        "image": "/images/colors/vf-8/1V18.webp",
+        "swatch": "/images/colors/swatches/1V18.webp"
+      },
+      {
+        "code": "2911",
+        "name": "Jet Black - Mystery Bronze Roof",
+        "image": "/images/colors/vf-8/2911.webp",
+        "swatch": "/images/colors/swatches/2911.webp"
+      }
+    ]
+  },
+  "vf-9": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VF9",
+    "edition": "NE3LV",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/vf-9/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/vf-9/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE1V",
+        "name": "Zenith Grey",
+        "image": "/images/colors/vf-9/CE1V.webp",
+        "swatch": "/images/colors/swatches/CE1V.webp"
+      },
+      {
+        "code": "CE1M",
+        "name": "Crimson Red",
+        "image": "/images/colors/vf-9/CE1M.webp",
+        "swatch": "/images/colors/swatches/CE1M.webp"
+      },
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/vf-9/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      },
+      {
+        "code": "CE22",
+        "name": "Ivy Green",
+        "image": "/images/colors/vf-9/CE22.webp",
+        "swatch": "/images/colors/swatches/CE22.webp"
+      },
+      {
+        "code": "CE17",
+        "name": "Desat Silver",
+        "image": "/images/colors/vf-9/CE17.webp",
+        "swatch": "/images/colors/swatches/CE17.webp"
+      }
+    ]
+  },
+  "mpv-7": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-VFMPV7",
+    "edition": "SL1WV",
+    "colors": [
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/mpv-7/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/mpv-7/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE1V",
+        "name": "Zenith Grey",
+        "image": "/images/colors/mpv-7/CE1V.webp",
+        "swatch": "/images/colors/swatches/CE1V.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/mpv-7/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "CE2J",
+        "name": "Moonlit Ocean",
+        "image": "/images/colors/mpv-7/CE2J.webp",
+        "swatch": "/images/colors/swatches/CE2J.webp"
+      },
+      {
+        "code": "CE2N",
+        "name": "Introspective Brown",
+        "image": "/images/colors/mpv-7/CE2N.webp",
+        "swatch": "/images/colors/swatches/CE2N.webp"
+      }
+    ]
+  },
+  "minio-green": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-MinioGreen",
+    "edition": "TH12V",
+    "colors": [
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/minio-green/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE17",
+        "name": "Desat Silver",
+        "image": "/images/colors/minio-green/CE17.webp",
+        "swatch": "/images/colors/swatches/CE17.webp"
+      },
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/minio-green/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/minio-green/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "1U11",
+        "name": "Jet Black Body - Summer Yellow Roof",
+        "image": "/images/colors/minio-green/1U11.webp",
+        "swatch": "/images/colors/swatches/1U11.webp"
+      },
+      {
+        "code": "1117",
+        "name": "Desat Silver Body - Jet Black Roof",
+        "image": "/images/colors/minio-green/1117.webp",
+        "swatch": "/images/colors/swatches/1117.webp"
+      },
+      {
+        "code": "181U",
+        "name": "Summer Yellow Body - Infinity Blanc Roof",
+        "image": "/images/colors/minio-green/181U.webp",
+        "swatch": "/images/colors/swatches/181U.webp"
+      },
+      {
+        "code": "CE2I",
+        "name": "Tropical Jade",
+        "image": "/images/colors/minio-green/CE2I.webp",
+        "swatch": "/images/colors/swatches/CE2I.webp"
+      },
+      {
+        "code": "CE2K",
+        "name": "Rose Metallic",
+        "image": "/images/colors/minio-green/CE2K.webp",
+        "swatch": "/images/colors/swatches/CE2K.webp"
+      },
+      {
+        "code": "182K",
+        "name": "Rose Metallic Body - Infinity Blanc Roof",
+        "image": "/images/colors/minio-green/182K.webp",
+        "swatch": "/images/colors/swatches/182K.webp"
+      },
+      {
+        "code": "1P2K",
+        "name": "Rose Metallic Body - Aqua Blue Roof",
+        "image": "/images/colors/minio-green/1P2K.webp",
+        "swatch": "/images/colors/swatches/1P2K.webp"
+      },
+      {
+        "code": "182I",
+        "name": "Tropical Jade Body - Infinity Blanc Roof",
+        "image": "/images/colors/minio-green/182I.webp",
+        "swatch": "/images/colors/swatches/182I.webp"
+      },
+      {
+        "code": "1U2I",
+        "name": "Tropical Jade Body - Summer Yellow Roof",
+        "image": "/images/colors/minio-green/1U2I.webp",
+        "swatch": "/images/colors/swatches/1U2I.webp"
+      },
+      {
+        "code": "182Q",
+        "name": "Solar Ruby Body - Infinity Blanc Roof",
+        "image": "/images/colors/minio-green/182Q.webp",
+        "swatch": "/images/colors/swatches/182Q.webp"
+      }
+    ]
+  },
+  "herio-green": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-HerioGreen",
+    "edition": "GA1XV",
+    "colors": [
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/herio-green/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE17",
+        "name": "Desat Silver",
+        "image": "/images/colors/herio-green/CE17.webp",
+        "swatch": "/images/colors/swatches/CE17.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/herio-green/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/herio-green/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      }
+    ]
+  },
+  "limo-green": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-LimoGreen",
+    "edition": "SL1VV",
+    "colors": [
+      {
+        "code": "CE17",
+        "name": "Desat Silver",
+        "image": "/images/colors/limo-green/CE17.webp",
+        "swatch": "/images/colors/swatches/CE17.webp"
+      },
+      {
+        "code": "CE11",
+        "name": "Jet Black",
+        "image": "/images/colors/limo-green/CE11.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      },
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/limo-green/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/limo-green/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      }
+    ]
+  },
+  "ec-van": {
+    "source": "https://shop.vinfastauto.com/vn_vi/dat-coc-o-to-dien-vinfast.html?modelId=Products-Car-ECVAN",
+    "edition": "TG10V",
+    "colors": [
+      {
+        "code": "CE1W",
+        "name": "Urban Mint",
+        "image": "/images/colors/ec-van/CE1W.webp",
+        "swatch": "/images/colors/swatches/CE1W.webp"
+      },
+      {
+        "code": "CE2Q",
+        "name": "Solar Ruby",
+        "image": "/images/colors/ec-van/CE2Q.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "CE1U",
+        "name": "Yellow",
+        "image": "/images/colors/ec-van/CE1U.webp",
+        "swatch": "/images/colors/swatches/CE1U.webp"
+      },
+      {
+        "code": "CE18",
+        "name": "Infinity Blanc",
+        "image": "/images/colors/ec-van/CE18.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      }
+    ]
+  }
+}

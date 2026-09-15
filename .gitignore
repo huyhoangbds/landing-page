@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Safe environment template
+!.env.example
+
+# Local editor / agent state and source archives
+.idea/
+.vscode/
+.codex/
+.agents/
+/plans/sources/
+*.log
+Thumbs.db
+*.key

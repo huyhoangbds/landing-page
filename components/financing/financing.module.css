@@ -1,0 +1,441 @@
+.page {
+  padding-block: 38px 56px;
+}
+.title {
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 750;
+  line-height: 1.3;
+}
+.intro {
+  font-size: 14px;
+  margin: 14px 0 24px;
+  max-width: 900px;
+}
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.step > span {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  color: var(--blue);
+  background: var(--soft);
+  font-weight: 700;
+  font-size: 12px;
+}
+.step h2 {
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 0 0 7px;
+  letter-spacing: -0.02em;
+}
+.step p {
+  font-size: 12px;
+  line-height: 1.65;
+}
+.calculator {
+  margin-top: 36px;
+  padding: 26px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.calculatorHeading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 24px;
+}
+.calculatorHeading > span {
+  padding: 12px;
+  color: var(--blue);
+  background: var(--soft);
+  border-radius: 10px;
+}
+.calculatorHeading h2 {
+  font-size: clamp(22px, 2.4vw, 30px);
+}
+.calculatorHeading p {
+  font-size: 13px;
+  margin-top: 8px;
+}
+.tabs {
+  display: flex;
+  gap: 28px;
+  border-bottom: 1px solid var(--line);
+}
+.tabs button {
+  padding: 14px 0;
+  color: var(--muted);
+  background: none;
+  border-bottom: 3px solid transparent;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+}
+.tabs button[aria-selected="true"] {
+  border-color: var(--blue);
+  color: var(--foreground);
+}
+.calculatorGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  background: var(--background);
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+.fields {
+  padding: 22px;
+  min-width: 0;
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+.field {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.2fr);
+  align-items: center;
+  gap: 18px;
+}
+.field > label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.field > label small {
+  display: block;
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+.inputBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: var(--background);
+  border-radius: 7px;
+  padding: 0 12px;
+  min-width: 0;
+}
+.inputBox:focus-within {
+  border-color: var(--blue);
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+.inputBox input {
+  min-width: 0;
+  width: 100%;
+  padding: 10px 0;
+  border: 0;
+  color: var(--foreground);
+  background: transparent;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+.inputBox input:focus {
+  outline: none;
+}
+.inputBox span {
+  white-space: nowrap;
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: 8px;
+}
+.amountHint {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-top: 5px;
+}
+.ratioLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--muted);
+}
+.ratioLabel strong {
+  color: var(--blue);
+}
+.slider {
+  width: 100%;
+  min-height: 28px;
+  accent-color: var(--blue);
+  cursor: pointer;
+}
+.rangeEnds {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 10px;
+  margin: -3px 0 12px;
+}
+.result {
+  padding: 22px;
+  min-width: 0;
+  background: var(--color-primary-strong);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.resultBrandRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.resultBrandRow > svg {
+  color: var(--color-primary-tint);
+  flex-shrink: 0;
+}
+.resultBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--color-white);
+  color: var(--color-ink);
+}
+.resultBrand img { object-fit: contain; }
+.resultBrand span { font-size: 20px; font-weight: 750; letter-spacing: 0.08em; }
+.resultBrand small { display: block; font-size: 10px; letter-spacing: 0.18em; }
+
+.resultLabel {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--color-primary-pale);
+  margin-bottom: 12px;
+}
+.paymentRange {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  width: 100%;
+}
+.paymentRange span,
+.mainPayment > span {
+  display: block;
+  font-size: 13px;
+  color: var(--color-primary-pale);
+}
+.paymentRange strong,
+.mainPayment strong {
+  display: block;
+  font-size: clamp(19px, 1.65vw, 25px);
+  overflow-wrap: anywhere;
+  line-height: 1.3;
+  margin-top: 6px;
+  font-variant-numeric: tabular-nums;
+}
+.mainPayment small {
+  display: block;
+  color: var(--color-primary-pale);
+  font-size: 11px;
+  margin-top: 10px;
+}
+.result dl {
+  width: 100%;
+  margin: 18px 0;
+  padding-top: 14px;
+  border-top: 1px solid color-mix(in srgb, var(--color-white) 23.92%, transparent);
+  display: grid;
+  gap: 12px;
+}
+.result dl > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+.result dt {
+  color: var(--color-primary-pale);
+  font-size: 12px;
+}
+.result dd {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.result p {
+  color: var(--color-white);
+  font-size: 13px;
+}
+.detailsButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  background: var(--color-white);
+  color: var(--color-primary-strong);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.error {
+  color: var(--color-danger);
+  font-size: 12px;
+  padding: 12px;
+  border: 1px solid var(--color-danger-border);
+  border-radius: 6px;
+  background: var(--color-danger-soft);
+}
+.resultEmpty {
+  margin-block: 20px;
+}
+.assumptions {
+  margin-top: 18px;
+  font-size: 11px;
+  line-height: 1.8;
+}
+.scheduleScroll {
+  max-width: 100%;
+  max-height: 520px;
+  overflow: auto;
+  margin-top: 25px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--background);
+}
+.schedule {
+  width: 100%;
+  min-width: 740px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.schedule caption {
+  padding: 14px;
+  font-size: 11px;
+}
+.schedule th,
+.schedule td {
+  padding: 12px;
+  text-align: right;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.schedule thead th {
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  z-index: 1;
+}
+.schedule tbody th {
+  background: var(--background);
+  font-weight: 500;
+}
+.schedule tfoot th,
+.schedule tfoot td {
+  background: var(--soft);
+  font-weight: 700;
+}
+.consultation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-top: 24px;
+}
+.consultation p {
+  max-width: 760px;
+  font-size: 12px;
+}
+.consultation button {
+  flex-shrink: 0;
+}
+@media (max-width: 1023px) {
+  .step {
+    padding: 16px;
+    gap: 10px;
+  }
+  .step h2 {
+    font-size: 16px;
+  }
+  .fields {
+    padding: 22px;
+  }
+  .field {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .result {
+    padding: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    padding-block: 28px 38px;
+  }
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .step {
+    padding: 16px;
+  }
+  .step h2 {
+    font-size: 17px;
+  }
+  .calculator {
+    margin-top: 26px;
+    padding: 16px;
+  }
+  .calculatorHeading {
+    align-items: flex-start;
+  }
+  .calculatorHeading > span {
+    padding: 9px;
+  }
+  .calculatorHeading p {
+    font-size: 12px;
+  }
+  .tabs {
+    gap: 16px;
+  }
+  .tabs button {
+    flex: 1;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .calculatorGrid {
+    grid-template-columns: 1fr;
+  }
+  .fields {
+    padding: 18px 16px;
+    gap: 14px;
+  }
+  .result {
+    padding: 20px 16px;
+  }
+  .paymentRange {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .paymentRange strong {
+    font-size: clamp(17px, 4.5vw, 23px);
+  }
+  .consultation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}

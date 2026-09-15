@@ -1,0 +1,1758 @@
+{
+  "vf-2": {
+    "name": "VF 2",
+    "sourceSheet": "VF 2",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 2 là mẫu xe điện 4 chỗ có kích thước nhỏ gọn, phù hợp với nhu cầu di chuyển thường xuyên trong đô thị. Xe dài 3.090 mm, rộng 1.496 mm, cao 1.663,2 mm, chiều dài cơ sở 2.065 mm và khoảng sáng gầm 166,3 mm. Trọng lượng không tải 820 kg; khoang hành lý 47 lít có thể mở rộng lên 542 lít khi gập hàng ghế thứ hai. VF 2 sử dụng pin LFP dung lượng khả dụng 18,3 kWh, công suất tối đa 30 kW, mô-men xoắn 65 Nm và tầm hoạt động 210 km theo chuẩn NEDC."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 2 được phát triển theo định hướng một mẫu xe điện đô thị nhỏ gọn, ưu tiên khả năng xoay xở linh hoạt trong không gian hẹp. Kích thước tổng thể 3.090 x 1.496 x 1.663,2 mm cùng chiều dài cơ sở 2.065 mm tạo nên tỷ lệ thân xe gọn, dễ sử dụng trong điều kiện đường phố đông đúc. Khoảng sáng gầm 166,3 mm giúp xe có độ thoáng gầm phù hợp cho nhu cầu đi lại hằng ngày.",
+          "Xe sử dụng mâm thép 13 inch đi cùng lốp 155/65R13. Bảng màu ngoại thất gồm Trắng Infinity Blanc, Đỏ Solar Ruby, Bạc Desat Silver, Xanh dương Sky Blue, Vàng Yellow Summer, Hồng Rose Pink, Xanh lá nhạt Urban Mint và Be Pebble."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf2-04-2ib63fs.jpg",
+        "caption": "Ngoại thất VF 2. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Khoang cabin VF 2 bố trí 4 chỗ ngồi. Ghế lái bọc nỉ, chỉnh cơ 4 hướng và tích hợp tựa đầu; ghế phụ cũng bọc nỉ, chỉnh cơ 4 hướng và hỗ trợ việc ra vào hàng ghế sau. Hàng ghế thứ hai có thể gập hoàn toàn, tích hợp tựa đầu và móc khóa trẻ em ISOFIX.",
+          "Vô lăng tích hợp nút bấm điều khiển tính năng giải trí. Khi cần tăng khả năng chở đồ, hàng ghế sau có thể gập để nâng dung tích khoang hành lý từ 47 lít lên 542 lít."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf-2-2-roin3fd.jpg",
+        "caption": "Nội thất VF 2. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 2 sử dụng động cơ điện công suất tối đa 30 kW, tương đương khoảng 40 hp, mô-men xoắn cực đại 65 Nm và dẫn động cầu sau RWD. Tốc độ tối đa đạt 80 km/h. Pin LFP dung lượng khả dụng 18,3 kWh cho quãng đường 210 km sau một lần sạc đầy theo chuẩn NEDC.",
+          "Xe hỗ trợ sạc nhanh DC công suất tối đa 24 kW, thời gian sạc từ 10% lên 70% khoảng 34 phút và dùng chuẩn cổng sạc CCS2 DC. Hệ thống phanh tái sinh có thể bật hoặc tắt. VF 2 có hai chế độ lái Eco và Normal, trợ lực lái điện, treo trước và sau độc lập MacPherson, cùng cần số điện tử đặt sau vô lăng."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf2-05-2q4f3fv.jpg",
+        "caption": "Khả năng vận hành VF 2. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "Thông số VF 2"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "3.090 x 1.496 x 1.663,2 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.065 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "166,3 mm"
+            ],
+            [
+              "Trọng lượng không tải",
+              "820 kg"
+            ],
+            [
+              "Dung tích cốp",
+              "47 L; 542 L khi gập hàng ghế 2"
+            ],
+            [
+              "Số chỗ",
+              "4"
+            ],
+            [
+              "Loại pin",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "18,3 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "210 km"
+            ],
+            [
+              "Công suất tối đa",
+              "30 kW [40 hp]"
+            ],
+            [
+              "Mô-men xoắn cực đại",
+              "65 Nm"
+            ],
+            [
+              "Tốc độ tối đa",
+              "80 km/h"
+            ],
+            [
+              "Dẫn động",
+              "Cầu sau (RWD)"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "34 phút"
+            ],
+            [
+              "Công suất sạc DC tối đa",
+              "24 kW"
+            ],
+            [
+              "Lốp / la-zăng",
+              "155/65R13, mâm thép 13 inch"
+            ],
+            [
+              "Chế độ lái",
+              "Eco, Normal"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 2 trang bị màn hình thông tin lái 7 inch, một cổng USB Type-C 1.5A và hệ thống âm thanh 2 loa. Xe có hộc để cốc cho cả hàng ghế trước và sau, gương chiếu hậu trong xe chỉnh cơ, điều hòa chỉnh cơ 1 vùng với chức năng làm mát, lọc bụi cabin và chức năng làm tan sương/tan băng."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 25
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "Hệ thống an toàn của VF 2 tập trung vào các tính năng thiết yếu gồm phanh trước đĩa, phanh sau tang trống, ABS chống bó cứng phanh, EBD phân phối lực phanh điện tử và TCS kiểm soát lực kéo. Xe có khóa cửa tự động khi di chuyển, khóa cửa trung tâm và 1 túi khí cho người lái."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 26
+      }
+    ]
+  },
+  "vf-3": {
+    "name": "VF 3",
+    "sourceSheet": "VF 3",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 3 là mẫu xe điện 4 chỗ có kích thước nhỏ gọn với chiều dài 3.190 mm, rộng 1.679 mm, cao 1.652 mm, chiều dài cơ sở 2.075 mm và khoảng sáng gầm 175 mm. Xe có khoang hành lý 36 lít, có thể tăng lên 285 lít khi gập hoàn toàn hàng ghế thứ hai. VF 3 sử dụng pin LFP dung lượng khả dụng 18,64 kWh, công suất tối đa 30 kW, mô-men xoắn 110 Nm và tầm hoạt động 215 km theo chuẩn NEDC. Dòng xe có hai phiên bản Eco và Plus, trong đó bản Plus bổ sung một số trang bị tiện dụng."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 3 có tỷ lệ thân xe gọn, khoảng sáng gầm 175 mm và bộ lốp 175/75R16. Đây là cấu hình tạo nên dáng xe cao ráo hơn so với kích thước tổng thể 3.190 mm, đồng thời giữ được lợi thế xoay xở trong đô thị.",
+          "Bảng màu tiêu chuẩn gồm Trắng Infinity Blanc, Xám Zenith Grey và Đỏ Solar Ruby. Nhóm màu nâng cao có Xanh dương Sky Blue phối nóc trắng, Vàng Yellow Summer phối nóc trắng, Hồng Rose Pink phối nóc trắng và Xanh lá nhạt Urban Mint.",
+          "Về khác biệt phiên bản, VF 3 Plus có ốp la-zăng, gương chiếu hậu gập điện, gương chỉnh điện và camera lùi; VF 3 Eco không có các trang bị này."
+        ],
+        "table": null,
+        "image": "/images/vf3-bv-anh-1-rh57v5m.jpg",
+        "caption": "Ngoại thất VF 3. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Khoang cabin VF 3 bố trí 4 chỗ. Ghế lái và ghế phụ bọc nỉ, chỉnh cơ 4 hướng và tích hợp tựa đầu. Hàng ghế thứ hai có thể gập hoàn toàn để tăng khả năng chuyên chở đồ, giúp dung tích cốp tăng từ 36 lít lên 285 lít.",
+          "VF 3 trang bị màn hình giải trí cảm ứng 10 inch, hỗ trợ Android Auto và Apple CarPlay, kết nối Bluetooth, cùng các cổng USB cho hàng ghế trước và hàng ghế sau. Việc tập trung chức năng lên màn hình trung tâm giúp không gian nội thất gọn và dễ làm quen."
+        ],
+        "table": null,
+        "image": "/images/noi-that-vinfast-vf3-29frv58.jpg",
+        "caption": "Nội thất VF 3. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 3 sử dụng động cơ điện công suất tối đa 30 kW, tương đương khoảng 40 hp, mô-men xoắn cực đại 110 Nm và dẫn động cầu sau RWD. Pin LFP dung lượng khả dụng 18,64 kWh cho quãng đường 215 km mỗi lần sạc đầy theo chuẩn NEDC.",
+          "Thời gian sạc thường từ 10% lên 70% khoảng 5 giờ, trong khi sạc nhanh cùng dải dung lượng mất khoảng 36 phút. Xe có trợ lực lái điện, treo trước độc lập MacPherson và treo sau dạng trục cứng với thanh xoắn Panhard. Tốc độ tối đa có thể duy trì 100 km/h trong 1 phút khi dung lượng pin trên 50%, theo điều kiện được nêu trong tài liệu đào tạo."
+        ],
+        "table": null,
+        "image": "/images/vf3-bv-anh-1-2c9hv5j.jpg",
+        "caption": "Khả năng vận hành VF 3. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 3 Eco",
+            "VF 3 Plus"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "3.190 x 1.679 x 1.652 mm",
+              "3.190 x 1.679 x 1.652 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.075 mm",
+              "2.075 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "175 mm",
+              "175 mm"
+            ],
+            [
+              "Dung tích cốp",
+              "36 L; 285 L khi gập hàng ghế 2",
+              "36 L; 285 L khi gập hàng ghế 2"
+            ],
+            [
+              "Loại pin",
+              "LFP",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "18,64 kWh",
+              "18,64 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "215 km",
+              "215 km"
+            ],
+            [
+              "Công suất tối đa",
+              "30 kW [40 hp]",
+              "30 kW [40 hp]"
+            ],
+            [
+              "Mô-men xoắn cực đại",
+              "110 Nm",
+              "110 Nm"
+            ],
+            [
+              "Dẫn động",
+              "Cầu sau (RWD)",
+              "Cầu sau (RWD)"
+            ],
+            [
+              "Lốp / la-zăng",
+              "175/75R16",
+              "175/75R16; có ốp la-zăng"
+            ],
+            [
+              "Sạc thường 10–70%",
+              "5 giờ",
+              "5 giờ"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "36 phút",
+              "36 phút"
+            ],
+            [
+              "Gương chỉnh/gập điện",
+              "Không",
+              "Có"
+            ],
+            [
+              "Camera lùi",
+              "Không",
+              "Có"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 3 trang bị màn hình giải trí cảm ứng 10 inch hỗ trợ Android Auto và Apple CarPlay, kết nối Bluetooth, Wifi phục vụ cập nhật phần mềm từ xa, hệ thống âm thanh 2 loa, phanh tay điện tử và điều hòa chỉnh cơ 1 vùng. Xe có lọc bụi cabin, chức năng làm tan sương/tan băng, cổng USB Type-C phía trước và một cổng USB Type-A 1.5A cho hàng ghế sau. Tài liệu cũng xác nhận VF 3 Eco đã được bổ sung Apple CarPlay và Android Auto."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 23
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF 3 sử dụng phanh trước đĩa và phanh sau tang trống, kết hợp ABS chống bó cứng phanh, TCS kiểm soát lực kéo và HSA hỗ trợ khởi hành ngang dốc. Xe có đèn báo phanh khẩn cấp ESS, khóa cửa tự động khi xe đạt 5 km/h, tính năng khóa động cơ khi phát hiện trộm, 1 túi khí người lái và hỗ trợ đỗ xe phía sau."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 24
+      }
+    ]
+  },
+  "vf-5": {
+    "name": "VF 5",
+    "sourceSheet": "VF 5",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 5 là mẫu xe điện có kích thước dài 3.967 mm, rộng 1.723 mm, cao 1.579 mm, chiều dài cơ sở 2.514 mm và khoảng sáng gầm 160 mm. Khoang hành lý có dung tích 331 lít, mở rộng lên 1.015 lít khi gập hàng ghế thứ hai. Phiên bản VF 5 Plus sử dụng pin LFP dung lượng khả dụng 37,23 kWh, công suất tối đa 100 kW, mô-men xoắn 135 Nm và tầm hoạt động 326 km theo chuẩn NEDC."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 5 mang phong cách trẻ trung, năng động và cá tính. Phần đầu xe sử dụng ngôn ngữ nhận diện chữ V đặc trưng của VinFast, đi cùng kính chắn gió chống tia UV, gương chiếu hậu chỉnh điện tích hợp đèn báo rẽ và cụm đèn halogen cỡ lớn có chức năng tự động bật/tắt.",
+          "Thân xe sử dụng tay nắm cửa đồng màu với thân xe, phần ốp ngoài gương đồng màu với nóc tạo sự đồng bộ về thị giác. Phía sau được thiết kế tối giản với dải phản quang nhận diện thương hiệu, cụm đèn hậu đặt thấp và cản sau tạo hình khỏe khoắn. VF 5 Plus trang bị mâm hợp kim 17 inch tạo hình 4 chấu lớn.",
+          "Màu tiêu chuẩn gồm Trắng Infinity Blanc, Đỏ Solar Ruby và Xám Zenith Grey; màu nâng cao gồm Xanh dương phối nóc trắng, Xanh lá nhạt Urban Mint và Vàng Summer Yellow phối nóc đen Jet Black."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf5-3-ba5tun0.jpg",
+        "caption": "Ngoại thất VF 5. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Nội thất VF 5 sử dụng tông Granite Black theo phong cách tối giản, tập trung vào tính thực dụng. Vô lăng dạng D-cut thể thao, chỉnh cơ 2 hướng và tích hợp điều khiển âm thanh, đàm thoại rảnh tay cùng Cruise Control.",
+          "Ghế lái bọc giả da, chỉnh cơ 6 hướng; ghế phụ bọc giả da, chỉnh cơ 4 hướng. Hàng ghế thứ hai gập 60:40, cho phép linh hoạt giữa nhu cầu chở người và chở hành lý, đồng thời nâng dung tích cốp từ 331 lít lên tối đa 1.015 lít."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf5-16-bxpguod.jpg",
+        "caption": "Nội thất VF 5. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 5 Plus sử dụng động cơ điện công suất tối đa 100 kW, tương đương khoảng 134 hp, mô-men xoắn tối đa 135 Nm và hệ dẫn động cầu trước FWD. Hai chế độ lái Eco và Sport cho phép người dùng lựa chọn thiên về tiết kiệm năng lượng hoặc phản hồi vận hành linh hoạt hơn.",
+          "Pin LFP dung lượng khả dụng 37,23 kWh cho quãng đường 326 km theo NEDC. Thời gian sạc nhanh từ 10% lên 70% khoảng 33 phút; công suất sạc AC tối đa 6,6 kW. Hệ thống phanh tái sinh có hai mức cao và thấp. Treo trước độc lập MacPherson, treo sau dầm xoắn."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 5 Plus"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "3.967 x 1.723 x 1.579 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.514 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "160 mm"
+            ],
+            [
+              "Dung tích cốp",
+              "331 L; 1.015 L khi gập hàng ghế 2"
+            ],
+            [
+              "Loại pin",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "37,23 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "326 km"
+            ],
+            [
+              "Công suất tối đa",
+              "100 kW [134 hp]"
+            ],
+            [
+              "Mô-men xoắn tối đa",
+              "135 Nm"
+            ],
+            [
+              "Dẫn động",
+              "Cầu trước (FWD)"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "~33 phút"
+            ],
+            [
+              "Công suất sạc AC tối đa",
+              "6,6 kW"
+            ],
+            [
+              "Phanh tái sinh",
+              "2 mức: cao / thấp"
+            ],
+            [
+              "Treo trước / sau",
+              "MacPherson / dầm xoắn"
+            ],
+            [
+              "Chế độ lái",
+              "Eco, Sport"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 5 trang bị bảng đồng hồ thông tin lái 7 inch và màn hình giải trí cảm ứng trung tâm 8 inch, hỗ trợ Bluetooth, Wifi, Apple CarPlay và Android Auto không dây. Xe có chế độ cắm trại, cổng USB Type-A phía trước dùng truyền dữ liệu và sạc 7,5W, cùng một cổng sạc 12V.",
+          "Hệ thống điều hòa 1 vùng chỉnh cơ tích hợp lọc bụi mịn PM2.5 và chức năng làm tan sương/tan băng. Trợ lý ảo ViVi hỗ trợ điều khiển bằng giọng nói qua câu lệnh \"Hey VinFast\" để thao tác các chức năng như điều hòa, cửa kính, gửi tin nhắn và gọi điện."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 23
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF 5 trang bị phanh đĩa trên cả 4 bánh cùng ABS, BA, EBD, ESC, TCS, HSA, ESS và cảnh báo áp suất lốp gián tiếp iTPMS. Hệ thống 6 túi khí gồm 2 túi khí phía trước, 2 túi khí rèm và 2 túi khí bên hông hàng ghế trước.",
+          "Các tính năng hỗ trợ lái gồm Cruise Control, cảnh báo giao thông phía sau, cảnh báo điểm mù, cảnh báo mở cửa, hỗ trợ đỗ xe phía sau và camera lùi."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 24
+      }
+    ]
+  },
+  "limo-green": {
+    "name": "Limo Green",
+    "sourceSheet": "Limo Green",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "Limo Green là mẫu xe điện 7 chỗ hướng tới nhu cầu chở nhiều người và hành lý, với chiều dài 4.740 mm, rộng 1.872 mm, cao 1.729 mm, chiều dài cơ sở 2.840 mm và khoảng sáng gầm 180 mm. Khoang hành lý đạt 126 lít khi sử dụng đủ ba hàng ghế, tăng lên 606 lít khi gập hàng ghế thứ ba và 1.240 lít khi gập tiếp hàng ghế thứ hai. Xe dùng pin LFP dung lượng khả dụng 60,13 kWh, công suất tối đa 150 kW, mô-men xoắn 280 Nm và tầm hoạt động 450 km theo chuẩn NEDC."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "Limo Green có kích thước thân xe lớn, trục cơ sở 2.840 mm và mâm 18 inch, tạo nền tảng cho không gian 3 hàng ghế. Cụm đèn trước sử dụng LED, tích hợp đèn chờ dẫn đường, đèn định vị/chiếu sáng ban ngày LED, chức năng tự động bật/tắt và điều chỉnh góc chiếu cơ. Gương chiếu hậu chỉnh điện, trong khi cụm đèn hậu cũng sử dụng LED và có đèn phanh trên cao.",
+          "Xe có bốn màu ngoại thất tiêu chuẩn gồm Trắng, Đen Jet Black, Bạc và Đỏ Solar Ruby. Nội thất sử dụng tông đen, phù hợp định hướng thực dụng và dễ vệ sinh của một mẫu xe chở nhiều hành khách."
+        ],
+        "table": null,
+        "image": "/images/limo-green-bai-viet-2-ozy3yak.jpg",
+        "caption": "Ngoại thất Limo Green. Hình ảnh minh họa.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Limo Green bố trí 3 hàng ghế. Ghế lái bọc vải/giả da AFS, chỉnh cơ 6 hướng; ghế phụ chỉnh cơ 4 hướng. Hàng ghế thứ hai gập 60:40, có thể trượt và ngả lưng, đồng thời tích hợp bệ tì tay trung tâm với hộc để cốc. Hàng ghế thứ ba gập 50:50 để linh hoạt mở rộng khoang hành lý.",
+          "Vô lăng dạng D-cut thể thao, chỉnh cơ 4 hướng. Với cách bố trí ghế linh hoạt, xe có thể chuyển đổi từ cấu hình chở đủ hành khách sang cấu hình ưu tiên hành lý mà không cần thay đổi kết cấu bên trong."
+        ],
+        "table": null,
+        "image": "/images/limo-green-bai-viet-5-bslhyai.jpg",
+        "caption": "Nội thất Limo Green. Hình ảnh minh họa.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "Limo Green sử dụng động cơ điện công suất tối đa 150 kW, tương đương khoảng 201 hp, mô-men xoắn 280 Nm và dẫn động cầu trước FWD. Pin LFP dung lượng khả dụng 60,13 kWh cho quãng đường 450 km theo NEDC.",
+          "Xe hỗ trợ sạc nhanh DC tối đa 80 kW, thời gian sạc từ 10% lên 70% khoảng 30 phút; công suất sạc AC tối đa 6,9 kW. Hệ thống treo trước độc lập MacPherson và treo sau đa liên kết, hai chế độ lái Eco và Normal. Xe khởi động bằng bàn đạp phanh, dùng phanh tay điện tử và núm xoay chuyển số đặt ở khu vực trung tâm."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "Limo Green"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "4.740 x 1.872 x 1.729 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.840 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "180 mm"
+            ],
+            [
+              "Dung tích cốp",
+              "126 L / 606 L khi gập hàng 3 / 1.240 L khi gập hàng 2"
+            ],
+            [
+              "La-zăng",
+              "18 inch"
+            ],
+            [
+              "Loại pin",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "60,13 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "450 km"
+            ],
+            [
+              "Công suất tối đa",
+              "150 kW [201 hp]"
+            ],
+            [
+              "Mô-men xoắn tối đa",
+              "280 Nm"
+            ],
+            [
+              "Dẫn động",
+              "Cầu trước (FWD)"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "~30 phút"
+            ],
+            [
+              "Sạc AC tối đa",
+              "6,9 kW"
+            ],
+            [
+              "Sạc DC tối đa",
+              "80 kW"
+            ],
+            [
+              "Treo trước / sau",
+              "MacPherson / đa liên kết"
+            ],
+            [
+              "Chế độ lái",
+              "Eco, Normal"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "Limo Green trang bị màn hình giải trí cảm ứng 10,1 inch tích hợp các tính năng giải trí thông minh, hệ thống âm thanh 4 loa, 2 cổng USB Type-A, 2 cổng USB Type-C và cổng 12V cho cả khu vực ghế trước và ghế sau. Xe có chế độ cắm trại.",
+          "Hệ thống điều hòa tự động 1 vùng, lọc không khí cabin loại thường và có cửa gió cho cả hàng ghế thứ hai lẫn hàng ghế thứ ba, giúp phân phối luồng khí đều hơn trong khoang 7 chỗ."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 24
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "Limo Green trang bị phanh trước đĩa thông gió và phanh sau đĩa, đi cùng ABS, BA, EBD, ESC, TCS, HSA, ROM chống lật và ESS cảnh báo phanh khẩn cấp. Xe có camera lùi.",
+          "Hệ thống túi khí gồm 4 túi: 2 túi khí phía trước cho người lái và hành khách, cùng 2 túi khí bên hông hàng ghế trước."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 25
+      }
+    ]
+  },
+  "minio-green": {
+    "name": "Minio Green",
+    "sourceSheet": "Minio Green",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "Minio Green là mẫu xe điện 4 chỗ cỡ nhỏ, được thiết kế theo định hướng tối ưu cho nhu cầu di chuyển đô thị. Xe dài 3.090 mm, rộng 1.496 mm, cao 1.664 mm, khoảng sáng gầm 165 mm và trọng lượng không tải 738 kg. Khoang hành lý 47 lít có thể mở rộng lên 542 lít khi gập hoàn toàn hàng ghế thứ hai. Xe dùng pin LFP 18,3 kWh, công suất 30 kW, mô-men xoắn 65 Nm và tầm hoạt động 210 km theo NEDC."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "Minio Green sở hữu kích thước nhỏ gọn, phù hợp với môi trường đô thị cần khả năng xoay xở linh hoạt. Xe trang bị cụm đèn pha LED, đèn định vị LED, mâm thép 13 inch và cụm đèn hậu sử dụng bóng tròn.",
+          "Bảng màu ngoại thất gồm Đen, Bạc, Vàng, Đỏ, Xanh lá nhạt và Hồng. Kích thước thân xe 3.090 x 1.496 x 1.664 mm kết hợp khoảng sáng gầm 165 mm tạo nên một cấu hình thiên về sự gọn nhẹ và dễ sử dụng trong không gian hẹp."
+        ],
+        "table": null,
+        "image": "/images/minio-green-bai-viet-1-btysyas.jpg",
+        "caption": "Ngoại thất Minio Green. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Khoang cabin Minio Green bố trí 4 chỗ ngồi. Ghế lái và ghế phụ bọc nỉ, chỉnh cơ 4 hướng và tích hợp tựa đầu. Hàng ghế thứ hai có thể gập hoàn toàn để tăng dung tích chở đồ từ 47 lít lên 542 lít.",
+          "Vô lăng tích hợp nút bấm điều khiển các tính năng giải trí. Cách bố trí nội thất tập trung vào những chức năng thiết yếu, phù hợp định hướng một mẫu xe điện đô thị thực dụng."
+        ],
+        "table": null,
+        "image": "/images/minio-green-bai-viet-5-24t3yaw.jpg",
+        "caption": "Nội thất Minio Green. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "Minio Green sử dụng pin LFP dung lượng khả dụng 18,3 kWh, động cơ điện công suất tối đa 30 kW, tương đương khoảng 40 hp, mô-men xoắn 65 Nm và dẫn động cầu sau RWD. Tầm hoạt động đạt 210 km theo chuẩn NEDC, tốc độ tối đa 80 km/h.",
+          "Xe hỗ trợ sạc nhanh DC công suất tối đa 24 kW, thời gian sạc từ 10% lên 70% khoảng 30 phút. Hệ thống làm mát pin cao áp sử dụng không khí. Minio Green có phanh tái sinh bật/tắt, trợ lực lái điện, hai chế độ lái Eco và Normal, treo trước và sau độc lập MacPherson cùng cần số điện tử tích hợp sau vô lăng."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "Minio Green"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "3.090 x 1.496 x 1.664 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "165 mm"
+            ],
+            [
+              "Trọng lượng không tải",
+              "738 kg"
+            ],
+            [
+              "Dung tích cốp",
+              "47 L; 542 L khi gập hàng ghế 2"
+            ],
+            [
+              "Số chỗ",
+              "4"
+            ],
+            [
+              "Loại pin",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "18,3 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "210 km"
+            ],
+            [
+              "Công suất tối đa",
+              "30 kW [40 hp]"
+            ],
+            [
+              "Mô-men xoắn cực đại",
+              "65 Nm"
+            ],
+            [
+              "Tốc độ tối đa",
+              "80 km/h"
+            ],
+            [
+              "Dẫn động",
+              "Cầu sau (RWD)"
+            ],
+            [
+              "Sạc DC tối đa",
+              "24 kW"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "~30 phút"
+            ],
+            [
+              "Lốp / la-zăng",
+              "155/65R13, mâm thép 13 inch"
+            ],
+            [
+              "Chế độ lái",
+              "Eco, Normal"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "Minio Green trang bị màn hình thông tin sau vô lăng 7 inch, một cổng USB Type-C, hệ thống âm thanh 2 loa, hộc để cốc giữa hàng ghế trước, phanh tay chỉnh cơ và điều hòa chỉnh cơ 1 vùng với chức năng làm mát. Xe có chức năng làm tan sương cho kính lái.",
+          "Nhóm tính năng thông minh gồm quản lý eSIM, giám sát tình trạng pin, thiết lập giới hạn dung lượng/dòng sạc, tự chẩn đoán lỗi và thanh toán phí sạc bằng QR code."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 24
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "Minio Green sử dụng phanh trước đĩa và phanh sau tang trống, kết hợp ABS chống bó cứng phanh, EBD phân phối lực phanh điện tử và TCS kiểm soát lực kéo. Xe có khóa cửa tự động khi di chuyển, khóa cửa trung tâm, 1 túi khí người lái và 2 chìa khóa cơ."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 25
+      }
+    ]
+  },
+  "mpv-7": {
+    "name": "VF MPV 7",
+    "sourceSheet": "VF MPV 7",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF MPV 7 là mẫu MPV điện 7 chỗ hướng tới gia đình đông thành viên và nhu cầu sử dụng xe như phương tiện chính cho đi làm, đưa đón con, về quê hoặc du lịch dài ngày. Xe có kích thước 4.740 x 1.872 x 1.734 mm, chiều dài cơ sở 2.840 mm, khoảng sáng gầm 185 mm và trọng lượng không tải 1.875 kg. Khoang hành lý đạt 126 lít khi dùng đủ ba hàng ghế, tăng lên 606 lít khi gập hàng ghế thứ ba và 1.240 lít khi gập hàng ghế thứ hai."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF MPV 7 được xây dựng trên tỷ lệ thân xe lớn, trục cơ sở dài 2.840 mm và mâm hợp kim nhôm 19 inch. Hệ thống chiếu sáng gồm đèn trước LED, dải LED ban ngày, đèn nhận diện thương hiệu trước/sau, đèn hậu LED và đèn phanh trên cao. Cụm đèn trước có chức năng tự động bật/tắt, đèn chờ dẫn đường và điều chỉnh góc chiếu cơ.",
+          "Gương chiếu hậu ngoài chỉnh điện, gập điện và tích hợp đèn báo rẽ LED. Xe có ăng-ten vây cá mập, tấm bảo vệ dưới thân xe và cốp sau chỉnh cơ. Màu tiêu chuẩn gồm Bạc, Trắng, Đen Jet Black, Đỏ Solar Ruby; màu nâng cao gồm Nâu Introspective Brown và Xanh dương Moonlit Ocean."
+        ],
+        "table": null,
+        "image": "/images/vf-mpv-7-anh-1-r9g21rq.jpg",
+        "caption": "Ngoại thất VF MPV 7. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "VF MPV 7 bố trí 3 hàng ghế, tập trung vào tính linh hoạt cho gia đình đông người. Ghế lái bọc giả da, chỉnh cơ 6 hướng; ghế phụ chỉnh cơ 4 hướng. Hàng ghế thứ hai gập 60:40, có thể trượt và ngả lưng, hỗ trợ tiếp cận hàng ghế cuối. Hàng ghế thứ ba gập 50:50.",
+          "Vô lăng dạng D-cut có bọc, chỉnh cơ 4 hướng. Xe có hai lựa chọn màu nội thất đen và nâu, trong đó nội thất nâu không áp dụng cho ngoại thất đỏ. Cách bố trí ghế linh hoạt giúp người dùng cân bằng giữa nhu cầu chở đủ hành khách và tăng không gian hành lý."
+        ],
+        "table": null,
+        "image": "/images/vf-mpv-7-anh-8-9ec81rw.jpg",
+        "caption": "Nội thất VF MPV 7. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF MPV 7 sử dụng động cơ đồng bộ nam châm vĩnh cửu, công suất tối đa 150 kW, tương đương khoảng 201 hp, mô-men xoắn 280 Nm và dẫn động cầu trước FWD. Pin LFP dung lượng khả dụng 60,13 kWh cho quãng đường 450 km theo chuẩn NEDC.",
+          "Xe hỗ trợ sạc nhanh DC tối đa 80 kW, thời gian sạc từ 10% lên 70% khoảng 30 phút; công suất sạc AC tối đa 6,9 kW. Hệ thống treo trước độc lập MacPherson, treo sau đa liên kết, phanh tái sinh và ba chế độ lái Eco, Normal, Sport. Xe khởi động bằng bàn đạp phanh, dùng phanh tay điện tử và cần số tích hợp sau vô lăng."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF MPV 7"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "4.740 x 1.872 x 1.734 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.840 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "185 mm"
+            ],
+            [
+              "Trọng lượng không tải",
+              "1.875 kg"
+            ],
+            [
+              "Dung tích cốp",
+              "126 L / 606 L khi gập hàng 3 / 1.240 L khi gập hàng 2"
+            ],
+            [
+              "Loại pin",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "60,13 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "450 km"
+            ],
+            [
+              "Công suất tối đa",
+              "150 kW [201 hp]"
+            ],
+            [
+              "Mô-men xoắn tối đa",
+              "280 Nm"
+            ],
+            [
+              "Dẫn động",
+              "Cầu trước (FWD)"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "~30 phút"
+            ],
+            [
+              "Sạc AC tối đa",
+              "6,9 kW"
+            ],
+            [
+              "Sạc DC tối đa",
+              "80 kW"
+            ],
+            [
+              "Treo trước / sau",
+              "MacPherson / đa liên kết"
+            ],
+            [
+              "Chế độ lái",
+              "Eco, Normal, Sport"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF MPV 7 trang bị màn hình giải trí trung tâm cảm ứng 10,1 inch, hệ thống âm thanh 4 loa, 2 cổng USB Type-A, 2 cổng USB Type-C, cổng 12V cho hàng ghế trước và sau, gương chiếu hậu trong xe chỉnh cơ ngày/đêm và chế độ cắm trại.",
+          "Điều hòa tự động 1 vùng đi kèm lọc không khí PM2.5, cửa gió cho hàng ghế thứ hai và thứ ba, chức năng làm tan sương và sưởi kính sau. Trợ lý ảo ViVi hỗ trợ điều khiển giọng nói qua câu lệnh \"Hey VinFast\" để thao tác điều hòa, cửa kính, gọi điện và gửi tin nhắn."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 24
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF MPV 7 sử dụng phanh trước đĩa thông gió và phanh sau đĩa, kết hợp ABS, BA, EBD, ESC, TCS, HSA, ROM chống lật và ESS. Xe có 4 túi khí gồm 2 túi khí phía trước và 2 túi khí bên hông hàng ghế trước.",
+          "Nhóm hỗ trợ lái gồm Cruise Control, hỗ trợ đỗ xe phía sau, camera lùi và tùy chọn camera 360° theo hạng mục Aftersales trong tài liệu."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 25
+      }
+    ]
+  },
+  "vf-6": {
+    "name": "VF 6",
+    "sourceSheet": "VF 6",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 6 là mẫu SUV điện có hai phiên bản Eco và Plus. Xe được thiết kế bởi Torino Design theo triết lý \"Cặp đối lập tự nhiên\", nhấn mạnh sự hài hòa giữa con người và công nghệ. VF 6 có khoảng sáng gầm 170 mm, khoang hành lý 423 lít và có thể mở rộng lên 1.576 lít khi gập hàng ghế thứ hai. Cả hai phiên bản dùng pin LFP 59,6 kWh, nhưng khác nhau về công suất, mô-men xoắn, tầm hoạt động và mức trang bị."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "Ngoại thất VF 6 mang ngôn ngữ thiết kế hiện đại với dải đèn định vị chữ V đặc trưng, logo chữ V dạng 3D, kính chắn gió chống tia UV và cách âm nhiều lớp, cùng tấm bảo vệ dưới thân xe. Tài liệu mô tả khung gầm theo định hướng \"đầm - chắc - êm\".",
+          "VF 6 Eco dùng mâm hợp kim 17 inch, trong khi VF 6 Plus sử dụng mâm 18 inch. Cụm đèn trước LED có đèn chờ dẫn đường và đèn chào mừng; bản Plus bổ sung tự động bật/tắt, điều khiển góc chiếu pha tự động và đèn pha thích ứng. Gương ngoài chỉnh điện, tích hợp đèn báo rẽ; bản Plus có thêm gập điện, sấy gương và tự động chỉnh khi lùi.",
+          "Màu ngoại thất gồm Solar Ruby, Infinity Blanc, Jet Black, Zenith Grey và Urban Mint."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf6-bai-viet-1-9dbgu7z.jpg",
+        "caption": "Ngoại thất VF 6. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "VF 6 Eco có lựa chọn nội thất Đen/Be, còn VF 6 Plus có nội thất Nâu Mocha hoặc Be tùy màu ngoại thất. Vô lăng dạng D-cut thể thao, chỉnh cơ 4 hướng, tích hợp điều khiển giải trí; bản Plus có vô lăng bọc da và nút điều khiển ADAS.",
+          "Ghế lái bọc da nhân tạo: bản Plus chỉnh điện 8 hướng, bản Eco chỉnh cơ 6 hướng. Ghế phụ chỉnh cơ 4 hướng. Hàng ghế thứ hai gập 60:40, tích hợp bệ gác tay và hộc để cốc. Gương chiếu hậu trong xe chống chói chỉnh cơ."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf6-bai-viet-7-25lju71.jpg",
+        "caption": "Nội thất VF 6. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 6 Eco dùng động cơ điện công suất 130 kW, tương đương khoảng 174 hp, mô-men xoắn 250 Nm và có tầm hoạt động 485 km NEDC. VF 6 Plus tăng công suất lên 150 kW, khoảng 201 hp, mô-men xoắn 310 Nm và tầm hoạt động 460 km NEDC.",
+          "Cả hai dùng pin LFP 59,6 kWh, dẫn động cầu trước FWD, treo trước MacPherson và treo sau thanh điều hướng đa điểm. Xe hỗ trợ phanh tái sinh 4 mức: Tắt, Thấp, Trung bình, Cao; ba chế độ lái Eco, Normal, Sport. Sạc nhanh từ 10% lên 70% có thể đạt khoảng 25 phút với nguồn 250 kW theo tài liệu, hoặc khoảng 45 phút với nguồn 60 kW."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf6-bai-viet-15-29s0u8a.jpg",
+        "caption": "Khả năng vận hành VF 6. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 6 Eco",
+            "VF 6 Plus"
+          ],
+          "rows": [
+            [
+              "Khoảng sáng gầm",
+              "170 mm",
+              "170 mm"
+            ],
+            [
+              "Dung tích cốp",
+              "423 L; 1.576 L khi gập hàng ghế 2",
+              "423 L; 1.576 L khi gập hàng ghế 2"
+            ],
+            [
+              "La-zăng",
+              "17 inch",
+              "18 inch"
+            ],
+            [
+              "Loại pin",
+              "LFP",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "59,6 kWh",
+              "59,6 kWh"
+            ],
+            [
+              "Công suất tối đa",
+              "130 kW [174 hp]",
+              "150 kW [201 hp]"
+            ],
+            [
+              "Mô-men xoắn tối đa",
+              "250 Nm",
+              "310 Nm"
+            ],
+            [
+              "Quãng đường NEDC",
+              "485 km",
+              "460 km"
+            ],
+            [
+              "Dẫn động",
+              "Cầu trước (FWD)",
+              "Cầu trước (FWD)"
+            ],
+            [
+              "Sạc nhanh 10–70% (250 kW)",
+              "~25 phút",
+              "~25 phút"
+            ],
+            [
+              "Sạc nhanh 10–70% (60 kW)",
+              "~45 phút",
+              "~45 phút"
+            ],
+            [
+              "Sạc AC tối đa",
+              "7,2 kW; tùy chọn 11 kW",
+              "7,2 kW; tùy chọn 11 kW"
+            ],
+            [
+              "Túi khí",
+              "4",
+              "7"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 6 trang bị màn hình giải trí cảm ứng 12,9 inch đặt nghiêng về phía người lái và hệ thống âm thanh 6 loa. Bản Plus có màn hình HUD, thêm cổng USB cho hàng ghế sau và hệ thống điều hòa tự động 2 vùng; bản Eco dùng điều hòa tự động 1 vùng.",
+          "VF 6 Plus có kiểm soát chất lượng không khí, ion hóa và lọc bụi siêu mịn Combi 1.0; bản Eco dùng lọc bụi thường. Cả hai có cửa gió hàng ghế sau và trợ lý ảo ViVi hỗ trợ điều khiển giọng nói, thư viện sách nói và FPT Play."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 21
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "Cả VF 6 Eco và Plus đều có phanh đĩa trước/sau, Auto Hold, ABS, BA, EBD, ESC, TCS, HSA, ESS, ROM và dTPMS. Bản Eco có 4 túi khí, Cruise Control, cảnh báo điểm mù, hỗ trợ đỗ xe sau và camera lùi.",
+          "VF 6 Plus nâng cấp lên 7 túi khí và hệ thống ADAS Level 2 với hỗ trợ di chuyển khi ùn tắc, hỗ trợ lái cao tốc, tự động chuyển làn, cảnh báo lệch làn, giữ làn, giữ làn khẩn cấp, điều chỉnh tốc độ thông minh, nhận diện biển báo, cảnh báo va chạm trước, Cruise Control thích ứng, phanh tự động khẩn cấp, cảnh báo phương tiện cắt ngang sau, hỗ trợ đỗ xe thông minh, camera 360° và cảnh báo tài xế buồn ngủ."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 22
+      }
+    ]
+  },
+  "vf-8": {
+    "name": "VF 8",
+    "sourceSheet": "VF 8",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 8 là mẫu SUV điện 5 chỗ được phát triển theo triết lý thiết kế \"Cân bằng động\". Xe có kích thước 4.750 x 1.934 x 1.667 mm, chiều dài cơ sở 2.950 mm, khoảng sáng gầm 157–162 mm, khoang hành lý sau 376 lít có thể mở rộng lên 1.373 lít và thêm khoang hành lý trước 88 lít. Dòng xe gồm hai phiên bản Eco và Plus, sử dụng pin CATL dung lượng khả dụng 87,7 kWh nhưng khác nhau rõ về công suất, hệ dẫn động, khả năng tăng tốc và trang bị."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 8 có ngôn ngữ thiết kế hiện đại, thân xe cân đối và các chi tiết chú trọng tính khí động học. Xe được trang bị kính cửa sổ trước cách âm 2 lớp, kính chắn gió chống tia UV, kính cửa sổ sau màu tối tăng tính riêng tư và tấm bảo vệ dưới thân xe. Bản Plus có cửa sổ trời toàn cảnh, mâm hợp kim 20 inch và cốp điện tích hợp đá cốp.",
+          "Hệ thống đèn trước LED có đèn chờ dẫn đường, đèn chào mừng, tự động bật/tắt và điều khiển góc chiếu tự động. Bản Plus bổ sung đèn sương mù trước, đèn chiếu góc và đèn pha thích ứng. Gương ngoài chỉnh/gập điện, tích hợp báo rẽ và sấy gương; bản Plus có thêm nhớ vị trí, chống chói tự động và tự động chỉnh khi lùi."
+        ],
+        "table": null,
+        "image": "/images/articles/vf8-exterior.webp",
+        "caption": "Ngoại thất VF 8. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Khoang cabin VF 8 tập trung vào trải nghiệm số và sự thoải mái. Ghế lái bản Plus bọc da nhân tạo, chỉnh điện 12 hướng, nhớ vị trí, sưởi và thông gió; bản Eco dùng ghế giả da chỉnh điện 6 hướng. Ghế phụ Plus chỉnh điện 10 hướng có sưởi/thông gió, trong khi Eco chỉnh điện 6 hướng.",
+          "Hàng ghế thứ hai gập 60:40, tích hợp bệ gác tay và hộc để cốc; bản Plus có thêm sưởi và thông gió. Vô lăng dạng D-cut bọc da nhân tạo, tích hợp điều khiển giải trí và ADAS, chỉnh điện 4 hướng trên Plus và chỉnh cơ 4 hướng trên Eco."
+        ],
+        "table": null,
+        "image": "/images/articles/vf8-interior.webp",
+        "caption": "Nội thất VF 8. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 8 Eco sử dụng động cơ công suất 150 kW, khoảng 201 hp, mô-men xoắn 310 Nm và dẫn động cầu trước FWD. VF 8 Plus sử dụng hệ dẫn động 4 bánh toàn thời gian AWD, công suất 300 kW, khoảng 402 hp, mô-men xoắn 620 Nm. Khả năng tăng tốc 0–100 km/h lần lượt khoảng 11,8 giây trên Eco và 5,5 giây trên Plus.",
+          "Cả hai dùng pin CATL 87,7 kWh. Tài liệu ghi nhận VF 8 Eco đạt 531 km WLTP hoặc 562 km NEDC, trong khi VF 8 Plus đạt 457 km theo dữ liệu nêu trong bảng. Sạc nhanh 10–70% khoảng 31 phút. Hệ thống phanh tái sinh có bốn mức và ba chế độ lái Eco, Normal, Sport."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 8 Eco",
+            "VF 8 Plus"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "4.750 x 1.934 x 1.667 mm",
+              "4.750 x 1.934 x 1.667 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.950 mm",
+              "2.950 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "157–162 mm",
+              "157–162 mm"
+            ],
+            [
+              "Dung tích cốp sau",
+              "376 L; 1.373 L khi gập hàng ghế 2",
+              "376 L; 1.373 L khi gập hàng ghế 2"
+            ],
+            [
+              "Khoang hành lý trước",
+              "88 L",
+              "88 L"
+            ],
+            [
+              "Loại pin",
+              "CATL",
+              "CATL"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "87,7 kWh",
+              "87,7 kWh"
+            ],
+            [
+              "Công suất tối đa",
+              "150 kW [201 hp]",
+              "300 kW [402 hp]"
+            ],
+            [
+              "Mô-men xoắn",
+              "310 Nm",
+              "620 Nm"
+            ],
+            [
+              "Tầm hoạt động",
+              "531 km WLTP / 562 km NEDC",
+              "457 km theo bảng tài liệu"
+            ],
+            [
+              "0–100 km/h",
+              "11,8 giây",
+              "5,5 giây"
+            ],
+            [
+              "Dẫn động",
+              "FWD",
+              "AWD"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "~31 phút",
+              "~31 phút"
+            ],
+            [
+              "Túi khí",
+              "10",
+              "11"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 8 trang bị màn hình trung tâm 15,6 inch và màn hình HUD. Bản Plus có sạc không dây, hệ thống 10 loa + 1 loa trầm; bản Eco dùng 8 loa. Xe có nhiều cổng USB, trong đó có cổng Type-C công suất 90W.",
+          "Điều hòa tự động 2 vùng độc lập, kiểm soát chất lượng không khí, lọc Combi 1.0 và cửa gió hàng ghế sau; bản Plus bổ sung ion hóa không khí. Trợ lý ảo ViVi hỗ trợ điều khiển giọng nói, cùng các chế độ người lạ, thú cưng, cắm trại và rửa xe trên bản Plus."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 22
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF 8 có phanh đĩa thông gió trước/sau, Auto Hold, ABS, BA, EBD, ESC, TCS, HSA, ROM, ESS và dTPMS. Bản Eco có Cruise Control, cảnh báo điểm mù, cảm biến đỗ trước/sau và camera 360°.",
+          "Bản Plus bổ sung gói ADAS Level 2 gồm hỗ trợ di chuyển khi ùn tắc, hỗ trợ lái cao tốc, cảnh báo lệch làn, giữ làn, giữ làn khẩn cấp, kiểm soát đi giữa làn, điều chỉnh tốc độ thông minh, nhận diện biển báo, cảnh báo va chạm trước, cảnh báo mở cửa, ACC, phanh tự động khẩn cấp, cảnh báo phương tiện cắt ngang sau, camera 360° và giám sát người lái."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 23
+      }
+    ]
+  },
+  "vf-8-new": {
+    "name": "VF 8 Thế hệ mới",
+    "sourceSheet": "VF 8 Thế hệ mới",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VF 8 Thế hệ mới là cấu hình VF 8 được cập nhật trong tài liệu tháng 05/2026, với thay đổi đáng kể về kích thước, hệ truyền động, kiến trúc điện - điện tử và hệ thống quản lý nhiệt. Xe dài 4.701 mm, rộng 1.872 mm, cao 1.670 mm, chiều dài cơ sở 2.840 mm, khoảng sáng gầm 170 mm và trọng lượng không tải 1.870 kg. Khoang hành lý sau trên 600 lít và có thể tăng lên 1.600 lít khi gập hàng ghế thứ hai."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 8 Thế hệ mới được làm mới với mâm hợp kim 19 inch có ốp ngoài bằng nhựa, tấm bảo vệ dưới thân xe và cốp điện. Hệ thống đèn trước LED tích hợp đèn chờ dẫn đường, đèn chào mừng, tự động bật/tắt, pha/cốt tự động và dải LED ban ngày tạo hình cánh chim.",
+          "Gương chiếu hậu ngoài có chỉnh điện, gập điện, tích hợp đèn báo rẽ, nhớ vị trí và tự động chỉnh khi lùi. Tài liệu cho biết xe có tùy chọn ngoại thất 1 màu hoặc 2 màu và 2 lựa chọn màu nội thất, nhưng không nêu chi tiết tên màu trong phần văn bản trích xuất."
+        ],
+        "table": null,
+        "image": "/images/vf8-all-new-bai-viet-4-bryt2xd.jpg",
+        "caption": "Ngoại thất VF 8 Thế hệ mới. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Ghế lái VF 8 Thế hệ mới bọc da nhân tạo, chỉnh điện 6 hướng, tích hợp nhớ vị trí và chức năng easy entry-exit. Ghế phụ bọc da nhân tạo, chỉnh cơ 4 hướng. Hàng ghế thứ hai chỉnh cơ 2 hướng ở phần tựa lưng, gập 60:40 và có bệ gác tay tích hợp hộc để cốc.",
+          "Vô lăng bọc da nhân tạo, chỉnh cơ 4 hướng, tích hợp điều khiển giải trí và ADAS. Gương chiếu hậu trong xe có chống chói tự động."
+        ],
+        "table": null,
+        "image": "/images/vf8-all-new-bai-viet-10-rbqy2w7.jpg",
+        "caption": "Nội thất VF 8 Thế hệ mới. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 8 Thế hệ mới sử dụng pin LFP dung lượng khả dụng 60,13 kWh, động cơ điện công suất tối đa 170 kW, tương đương khoảng 228 hp, mô-men xoắn 330 Nm và dẫn động cầu trước FWD. Tầm hoạt động theo NEDC được công bố trong khoảng 480–500 km, thời gian sạc nhanh 10–70% dưới 30 phút, tăng tốc 0–100 km/h dưới 8 giây và tốc độ tối đa 160 km/h.",
+          "Xe được trang bị hệ thống quản lý nhiệt tích hợp ITM do VinFast phát triển, cụm 6-in-1 tích hợp EDS, inverter, OBC, DCDC, PDU và bộ giảm tốc. Kiến trúc điện - điện tử EEA 2.0 với máy tính trung tâm CVC giúp cập nhật OTA nhanh hơn. Hệ thống treo thích ứng FSD gồm MacPherson phía trước và đa liên kết phía sau."
+        ],
+        "table": null,
+        "image": "/images/vf8-all-new-bai-viet-6-b2q32xi.jpg",
+        "caption": "Khả năng vận hành VF 8 Thế hệ mới. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 8 Thế hệ mới"
+          ],
+          "rows": [
+            [
+              "Kích thước Dài x Rộng x Cao",
+              "4.701 x 1.872 x 1.670 mm"
+            ],
+            [
+              "Chiều dài cơ sở",
+              "2.840 mm"
+            ],
+            [
+              "Khoảng sáng gầm",
+              "170 mm"
+            ],
+            [
+              "Trọng lượng không tải",
+              "1.870 kg"
+            ],
+            [
+              "Dung tích cốp",
+              ">600 L; 1.600 L khi gập hàng ghế 2"
+            ],
+            [
+              "Loại pin",
+              "LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "60,13 kWh"
+            ],
+            [
+              "Công suất tối đa",
+              "170 kW [228 hp]"
+            ],
+            [
+              "Mô-men xoắn tối đa",
+              "330 Nm"
+            ],
+            [
+              "Quãng đường NEDC",
+              "480–500 km"
+            ],
+            [
+              "0–100 km/h",
+              "<8 giây"
+            ],
+            [
+              "Tốc độ tối đa",
+              "160 km/h"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "<30 phút"
+            ],
+            [
+              "Dẫn động",
+              "Cầu trước (FWD)"
+            ],
+            [
+              "Treo trước / sau",
+              "MacPherson / đa liên kết, FSD thích ứng"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 8 Thế hệ mới trang bị màn hình trung tâm 12,9 inch, màn hình thông tin lái, sạc không dây và hệ thống âm thanh 8 loa. Cổng kết nối gồm Type-A và Type-C công suất tới 60W cho hàng ghế trước/sau.",
+          "Điều hòa tự động 2 vùng độc lập đi kèm kiểm soát chất lượng không khí, ion hóa, lọc Combi 1.0, làm tan sương/tan băng và cửa gió hàng ghế sau. Trợ lý ViVi 3.0 hỗ trợ điều khiển giọng nói và được tích hợp trong các gói VF Connect Pro, Premium và Prime theo tài liệu."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 23
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF 8 Thế hệ mới có phanh trước đĩa thông gió, phanh sau đĩa đặc, Auto Hold, ABS, BA, EBD, ESC, TCS, HSA, ROM, ESS, HDC hỗ trợ xuống dốc và dTPMS.",
+          "Gói ADAS gồm trợ lái cao tốc HWA, hỗ trợ ùn tắc TJA, tự động dừng khẩn cấp AESA, ACC, nhận diện biển báo TSR, điều chỉnh tốc độ ISA, cảnh báo lệch làn LDW, giữ làn LKA/ELK, phanh tự động khẩn cấp FAEB, cảnh báo va chạm trước FCW, cảnh báo cắt ngang sau RTCA, cảnh báo điểm mù BSD, cảnh báo mở cửa, camera 360° và hỗ trợ đỗ xe trước/sau."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 24
+      }
+    ]
+  },
+  "vf-7": {
+    "name": "VF 7",
+    "sourceSheet": "VF 7",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 7 là mẫu SUV điện mang phong cách thể thao, được phát triển theo ngôn ngữ thiết kế lấy cảm hứng từ chủ đề hàng không vũ trụ. Xe có khoảng sáng gầm 190 mm, khoang hành lý 537 lít và có thể mở rộng lên 1.576 lít khi gập hàng ghế thứ hai. Dòng xe gồm hai phiên bản Eco và Plus, trong đó Plus có nhiều cấu hình pin và hệ dẫn động được liệt kê trong tài liệu đào tạo tháng 07/2026."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 7 sở hữu phần đầu và đuôi xe mang phong cách hàng không vũ trụ, kết hợp cánh gió và các đường nét khí động học. Tay nắm cửa dạng ẩn giúp bề mặt thân xe liền mạch hơn. Bản Eco sử dụng mâm hợp kim 19 inch, còn bản Plus dùng mâm 20 inch và có cốp sau chỉnh điện.",
+          "Cụm đèn trước LED có đèn chờ dẫn đường, đèn chào mừng và tự động bật/tắt; bản Plus bổ sung điều khiển góc chiếu pha tự động và đèn pha thích ứng. Gương chiếu hậu chỉnh điện, gập điện, tích hợp báo rẽ, sấy gương, nhớ vị trí và tự động chỉnh khi lùi; bản Plus có thêm chống chói tự động.",
+          "Màu ngoại thất gồm Đỏ Solar Ruby, Đen Jet Black, Xám Zenith Grey, Trắng Infinity Blanc và Xanh lá nhạt Urban Mint."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf7-bv-11-oabsvgc.jpg",
+        "caption": "Ngoại thất VF 7. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Nội thất VF 7 tiếp tục phong cách thể thao với vô lăng bọc da dạng D-cut, chỉnh cơ 4 hướng và tích hợp điều khiển giải trí; bản Plus có thêm nút điều khiển ADAS.",
+          "Ghế lái và ghế phụ đều bọc giả da bề mặt mịn. Ghế lái chỉnh điện 8 hướng trên cả Eco và Plus; ghế phụ chỉnh cơ 4 hướng. Hàng ghế thứ hai gập 60:40, tích hợp bệ gác tay và hộc để cốc. Bản Plus dùng gương chiếu hậu trong xe chống chói tự động, trong khi Eco sử dụng loại chỉnh cơ.",
+          "Màu nội thất gồm Đen, Nâu Mocha và Be tùy cấu hình, với một số giới hạn phối màu ngoại thất được nêu trong tài liệu."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf7-bv-13-r21mvgq.jpg",
+        "caption": "Nội thất VF 7. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 7 Eco dùng pin Gotion LFP 59,6 kWh, công suất 130 kW, tương đương khoảng 174 hp, mô-men xoắn 250 Nm, tầm hoạt động 440 km NEDC và dẫn động cầu trước FWD.",
+          "VF 7 Plus có nhiều cấu hình được tài liệu liệt kê. Một cấu hình dùng pin CATL 75,3 kWh, công suất 150 kW ở bản FWD hoặc 260 kW ở bản AWD, mô-men xoắn 310 Nm hoặc 500 Nm, tầm hoạt động lần lượt 504 km hoặc 496 km NEDC. Một cấu hình khác dùng pin Gotion LFP 70,8 kWh, công suất 150 kW hoặc 260 kW, mô-men xoắn 310 Nm hoặc 500 Nm, tầm hoạt động 500,5 km hoặc 469 km NEDC. Tài liệu cũng có một số cấu hình CATL ở trạng thái TBC, vì vậy không nên suy diễn thêm.",
+          "Xe sử dụng treo trước MacPherson, treo sau thanh điều hướng đa điểm và ba chế độ lái Eco, Normal, Sport."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 7 Eco",
+            "VF 7 Plus - CATL",
+            "VF 7 Plus - Gotion LFP"
+          ],
+          "rows": [
+            [
+              "Khoảng sáng gầm",
+              "190 mm",
+              "190 mm",
+              "190 mm"
+            ],
+            [
+              "Dung tích cốp",
+              "537 L; 1.576 L khi gập hàng ghế 2",
+              "537 L; 1.576 L khi gập hàng ghế 2",
+              "537 L; 1.576 L khi gập hàng ghế 2"
+            ],
+            [
+              "La-zăng",
+              "19 inch",
+              "20 inch",
+              "20 inch"
+            ],
+            [
+              "Loại pin",
+              "Gotion LFP",
+              "CATL",
+              "Gotion LFP"
+            ],
+            [
+              "Dung lượng pin khả dụng",
+              "59,6 kWh",
+              "75,3 kWh",
+              "70,8 kWh"
+            ],
+            [
+              "Công suất tối đa",
+              "130 kW [174 hp]",
+              "150 kW [201 hp] FWD / 260 kW [349 hp] AWD",
+              "150 kW [201 hp] FWD / 260 kW [349 hp] AWD"
+            ],
+            [
+              "Mô-men xoắn",
+              "250 Nm",
+              "310 Nm FWD / 500 Nm AWD",
+              "310 Nm FWD / 500 Nm AWD"
+            ],
+            [
+              "Quãng đường NEDC",
+              "440 km",
+              "504 km FWD / 496 km AWD",
+              "500,5 km FWD / 469 km AWD"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "<25 phút",
+              "26–28 phút",
+              "28–37 phút"
+            ],
+            [
+              "Sạc AC tối đa",
+              "7,2 kW",
+              "7,2 kW",
+              "7,2 kW"
+            ],
+            [
+              "Dẫn động",
+              "FWD",
+              "FWD / tùy chọn AWD",
+              "FWD / tùy chọn AWD"
+            ],
+            [
+              "Túi khí",
+              "4",
+              "7",
+              "7"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 7 trang bị màn hình giải trí cảm ứng 12,9 inch đặt nghiêng về phía người lái. Bản Plus có HUD, sạc không dây, hệ thống âm thanh 8 loa, thêm cổng USB cho hàng ghế sau và một cổng Type-C công suất 90W; Eco sử dụng 6 loa.",
+          "Điều hòa tự động 2 vùng là trang bị chung. Bản Plus có kiểm soát chất lượng không khí, ion hóa và lọc Combi 1.0; Eco dùng lọc bụi/phấn hoa. Xe có cửa gió hàng ghế sau và trợ lý ảo ViVi hỗ trợ điều khiển giọng nói, sách nói và FPT Play.",
+          "Các tính năng thông minh gồm kết nối xe từ xa qua ứng dụng, chế độ người lạ, chế độ thú cưng, chế độ cắm trại và chế độ rửa xe."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 20
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF 7 trang bị phanh đĩa trước/sau, Auto Hold, ABS, BA, EBD, ESC, TCS, HSA, ESS, ROM và dTPMS. Bản Eco có 4 túi khí, Cruise Control, cảnh báo điểm mù, hỗ trợ đỗ xe sau và camera lùi.",
+          "Bản Plus có 7 túi khí và gói ADAS Level 2 gồm hỗ trợ di chuyển khi ùn tắc, hỗ trợ lái cao tốc, tự động chuyển làn, cảnh báo lệch làn, giữ làn, giữ làn khẩn cấp, điều chỉnh tốc độ thông minh, nhận diện biển báo, cảnh báo điểm mù, cảnh báo mở cửa, ACC, phanh tự động khẩn cấp, cảnh báo phương tiện cắt ngang sau, camera 360°, cảnh báo va chạm trước và cảnh báo tài xế buồn ngủ."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 21
+      }
+    ]
+  },
+  "vf-9": {
+    "name": "VF 9",
+    "sourceSheet": "VF 9",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VinFast VF 9 là mẫu SUV điện cỡ lớn với hai phiên bản Eco và Plus, hướng tới trải nghiệm cao cấp và khả năng di chuyển đường dài. Xe có khoang hành lý sau 212 lít, tăng lên 926 lít khi gập hàng ghế cuối, đồng thời có thêm khoang hành lý trước 100 lít. Khoảng sáng gầm đạt 174 mm trên Eco và 184 mm trên Plus. Cả hai phiên bản sử dụng pin CATL 123 kWh, hệ dẫn động AWD và công suất tối đa 300 kW, tương đương khoảng 402 hp."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 2
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "VF 9 mang phong cách sang trọng với phần đuôi được ví như tầng nóc du thuyền, dải LED nhận diện thương hiệu và logo chữ V nổi bật. Hốc gió trên nắp capo được thiết kế để hỗ trợ khí động học. Xe dùng tay nắm cửa dạng ẩn, chốt cửa điện có lẫy cơ khẩn cấp, kính trước chống tia UV và cách âm 2 lớp, kính sau màu tối tăng tính riêng tư và cửa hít.",
+          "VF 9 Eco dùng mâm 20 inch, Plus dùng mâm 21 inch và có thêm bậc lên xuống. Cốp sau chỉnh điện tích hợp đá chân. Hệ thống đèn LED Matrix có tự động bật/tắt, đèn chờ dẫn đường, điều khiển góc chiếu tự động, đèn chào mừng, đèn liếc và đèn pha thích ứng.",
+          "Màu ngoại thất gồm Đen Jet Black, Đỏ Crimson Red, Trắng Infinity Blanc, Xám Zenith Grey, Xanh lá nhạt Urban Mint, cùng màu nâng cao Xanh lá đậm Ivy Green và Bạc Desat Silver."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf9-do-2-27t2sw3.jpg",
+        "caption": "Ngoại thất VF 9. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 3
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Khoang cabin VF 9 được định hướng cao cấp với ghế lái chỉnh điện 12 hướng trên Plus và 8 hướng trên Eco. Bản Plus có nhớ vị trí, massage, sưởi và thông gió; Eco có sưởi ghế. Ghế phụ Plus chỉnh điện 10 hướng kèm massage, sưởi và thông gió; Eco chỉnh điện 6 hướng và có sưởi.",
+          "Hàng ghế thứ hai bản 7 chỗ chỉnh điện 8 hướng trên Plus và 4 hướng trên Eco, gập 40:20:40 để hỗ trợ ra vào hàng ghế ba. Bản Plus có sưởi, thông gió và massage. Ngoài ra, cấu hình ghế cơ trưởng có ghế VIP chỉnh điện 8 hướng, massage, sưởi, thông gió và hộp đồ tích hợp sạc không dây.",
+          "Vô lăng dạng D-cut bọc vật liệu thân thiện môi trường, có sưởi; bản Plus chỉnh điện 4 hướng và nhớ vị trí, Eco chỉnh cơ 4 hướng."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf9-do-9-o7dlsw9.jpg",
+        "caption": "Nội thất VF 9. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 4
+      },
+      {
+        "id": "van-hanh",
+        "title": "Khả năng vận hành",
+        "paragraphs": [
+          "VF 9 sử dụng hai mô-tơ điện 150 kW, tổng công suất 300 kW, tương đương khoảng 402 hp, mô-men xoắn cực đại 620 Nm và hệ dẫn động bốn bánh toàn thời gian AWD. Pin CATL dung lượng khả dụng 123 kWh cho tầm hoạt động 626 km WLTP trên Eco và 602 km WLTP trên Plus.",
+          "Thời gian sạc nhanh từ 10% lên 70% khoảng 35 phút. Công suất sạc AC tối đa là 6,6 kW với nguồn 1 pha và 11 kW với nguồn 3 pha. Hệ thống phanh tái sinh có 4 mức: Tắt, Thấp, Trung bình và Cao.",
+          "Hệ thống treo trước độc lập tay đòn kép, treo sau đa liên kết với giảm chấn khí nén, phù hợp định hướng vận hành êm ái của một SUV cỡ lớn."
+        ],
+        "table": null,
+        "image": "/images/vinfast-vf9-do-1-owimsw1.jpg",
+        "caption": "Khả năng vận hành VF 9. Hình ảnh minh họa, trang bị tùy phiên bản.",
+        "sourceRow": 5
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "VF 9 Eco",
+            "VF 9 Plus"
+          ],
+          "rows": [
+            [
+              "Khoảng sáng gầm",
+              "174 mm",
+              "184 mm"
+            ],
+            [
+              "Khoang hành lý sau",
+              "212 L; 926 L khi gập hàng ghế cuối",
+              "212 L; 926 L khi gập hàng ghế cuối"
+            ],
+            [
+              "Khoang hành lý trước",
+              "100 L",
+              "100 L"
+            ],
+            [
+              "La-zăng",
+              "20 inch",
+              "21 inch"
+            ],
+            [
+              "Pin",
+              "CATL 123 kWh",
+              "CATL 123 kWh"
+            ],
+            [
+              "Công suất tối đa",
+              "300 kW [402 hp]",
+              "300 kW [402 hp]"
+            ],
+            [
+              "Mô-men xoắn cực đại",
+              "620 Nm",
+              "620 Nm"
+            ],
+            [
+              "Quãng đường WLTP",
+              "626 km",
+              "602 km"
+            ],
+            [
+              "Dẫn động",
+              "AWD",
+              "AWD"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "~35 phút",
+              "~35 phút"
+            ],
+            [
+              "Sạc AC tối đa",
+              "6,6 kW 1 pha / 11 kW 3 pha",
+              "6,6 kW 1 pha / 11 kW 3 pha"
+            ],
+            [
+              "Túi khí",
+              "11",
+              "11"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null,
+        "sourceRow": 6
+      },
+      {
+        "id": "tien-nghi",
+        "title": "Tiện nghi & công nghệ",
+        "paragraphs": [
+          "VF 9 trang bị màn hình trung tâm 15,6 inch hỗ trợ Android Auto và Apple CarPlay không dây, HUD, sạc không dây và nhiều cổng USB. Bản Eco có 11 loa, bản Plus có 14 loa; bản Plus còn có màn hình giải trí 8 inch cho hàng ghế sau. Cấu hình ghế cơ trưởng có 2 sạc không dây.",
+          "Điều hòa tự động 3 vùng, kiểm soát chất lượng không khí, ion hóa, lọc Combi 1.0 và cửa gió cho hàng ghế hai; cửa gió hàng ghế ba là trang bị tùy chọn theo tài liệu. Trợ lý ảo ViVi hỗ trợ điều khiển bằng giọng nói, sách nói và FPT Play."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 20
+      },
+      {
+        "id": "an-toan",
+        "title": "Tính năng an toàn",
+        "paragraphs": [
+          "VF 9 trang bị phanh đĩa thông gió 4 bánh, Auto Hold, ABS, BA, EBD, ESC, TCS, HSA, ROM, ESS và dTPMS. Hệ thống 11 túi khí gồm túi khí trước, đầu gối, bên hông hàng ghế trước, rèm, bên hông hàng ghế sau và túi khí trung tâm phía trước.",
+          "Gói ADAS Level 2 gồm hỗ trợ di chuyển khi ùn tắc, hỗ trợ lái cao tốc, cảnh báo lệch làn, giữ làn, kiểm soát đi giữa làn, ACC, điều chỉnh tốc độ thông minh, nhận diện biển báo, cảnh báo va chạm trước, giám sát người lái, cảnh báo cắt ngang sau, điểm mù, mở cửa, phanh tự động khẩn cấp, giữ làn khẩn cấp, hỗ trợ đỗ trước/sau, camera sau và camera 360°."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null,
+        "sourceRow": 21
+      }
+    ]
+  }
+}
