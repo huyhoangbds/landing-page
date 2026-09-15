@@ -5,7 +5,7 @@ import { OffersSection } from "@/components/sections/offers-section";
 import { PassengerCarsSection } from "@/components/sections/passenger-cars-section";
 import { CommercialCarsSection } from "@/components/sections/commercial-cars-section";
 import { PurchaseSupportSection } from "@/components/sections/purchase-support-section";
-export const revalidate = 3600;
+
 
 export const metadata = pageMetadata("Huy Hoàng Ôtô VinFast | Tư vấn xe và bảng giá", "Khám phá các dòng xe VinFast, giá tham khảo, màu ngoại thất và tính trả góp. Liên hệ Huy Hoàng: 0941 610 797.", "/");
 

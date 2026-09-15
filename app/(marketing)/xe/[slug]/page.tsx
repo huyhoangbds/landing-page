@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { pageMetadata } from "@/lib/seo";
 import colorData from "@/lib/data/car-colors.json";
 import details from "@/lib/data/details.json";

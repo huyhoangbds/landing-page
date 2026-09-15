@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 import type { MetadataRoute } from "next";
 import { cars } from "@/lib/data/cars";
 import { policies } from "@/lib/data/policies";

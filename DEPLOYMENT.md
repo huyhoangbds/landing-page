@@ -1,6 +1,6 @@
 # Đưa Landing Page lên internet
 
-## 1. Kiểm tra trên Mac
+## 1. Kiểm tra bản Cloudflare Pages
 
 ```sh
 cd "/Volumes/Lexar E6/AI-SSD-CURSOR/landing-page"
@@ -8,10 +8,9 @@ npm ci
 npm run lint
 npm run test:loan
 npm run build
-npm start
 ```
 
-Dừng dev server trước nếu cổng 3000 đang bận. Chạy production bằng `npm start`, không dùng `npm run dev` trên hosting.
+Build tạo thư mục `out/`, gồm index.html, 404.html và các trang xe. Dự án dùng `output: "export"`, không chạy `npm start` cho bản static này. Dev vẫn dùng `npm run dev`.
 
 ## 2. Tên miền và SEO
 
@@ -41,12 +40,26 @@ Dự án đã có Git, không cần `git init`. Hiện chưa cấu hình remote.
 
 Nguồn: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
 
-## 4. Hosting
+## 4. Cloudflare Pages
 
-Dùng hosting hỗ trợ Next.js server (ví dụ Vercel hoặc Node.js server). Repository GitHub chỉ lưu code; dự án hiện không phải bản static export dành cho GitHub Pages. Build command `npm run build`, start command `npm start`. Cài dependencies từ package-lock bằng `npm ci`. Chọn Node còn được hosting hỗ trợ, đáp ứng Next.js >=20.9; kiểm tra lại build khi thay phiên bản Node.
+Trong Workers & Pages → Create application → Pages → Import an existing Git repository, chọn huyhoangbds/landing-page.
 
-Kết nối repository trên hosting, chọn framework Next.js, đặt SITE_URL là URL public chính thức trước build. Sau deploy kiểm tra ảnh, menu, popup, trả góp, chuyển theme trên điện thoại và máy tính. Chưa thực hiện deploy hay push trong phiên chuẩn bị này.
+- Production branch: `main`
+- Framework: `Next.js (Static HTML Export)`
+- Build command: `npm run build`
+- Build output directory: `out`
+- Root directory: để trống (package.json ở gốc repo)
+- Production environment: `SITE_URL=https://TEN-DU-AN.pages.dev` hoặc tên miền thật.
+- Preview: không đặt SITE_URL; code cũng tắt index khi CF_PAGES_BRANCH khác main.
 
-## 5. Giới hạn chức năng cần biết
+Sau khi push bản sửa, deploy commit mới. Lỗi `Output directory "out" not found` ở bản cũ xảy ra vì chưa bật static export; bấm Retry trên commit cũ không sửa được lỗi. Không cần cài Wrangler/OpenNext cho bản static.
 
-Form hiện tạo bản nháp và mở ứng dụng email bằng mailto tới hoangnh.qo@gmail.com. Người dùng phải tự gửi; website chưa có dịch vụ gửi email tự động. Không thông báo đã nhận đăng ký khi chưa gửi thư. Banner HD và ảnh xe dùng Next Image, định dạng AVIF/WebP theo trình duyệt; hosting phải hỗ trợ image optimization.
+## 5. Chức năng và giới hạn
+
+Trang chủ không dùng ISR; nội dung JSON được cập nhật khi build lại. Tháng ưu đãi cập nhật trên trình duyệt; ngày vay mặc định lấy ngày Việt Nam khi mở công cụ. Các trang chi tiết xe được sinh sẵn; 404.html xử lý URL không tồn tại.
+
+Ảnh dùng đường dẫn public trực tiếp (`images.unoptimized`), không cần server Next Image và không có tối ưu AVIF theo request như bản server trước đó. Giữ ảnh gốc HD, ảnh lớn có thể tải nặng hơn. Có thể bổ sung bộ tạo ảnh nhiều kích thước ở build sau.
+
+Form tạo bản nháp và mở email bằng mailto tới hoangnh.qo@gmail.com, người dùng vẫn phải tự gửi. Chưa có dịch vụ gửi mail tự động.
+
+Sau deploy, kiểm tra trang chủ, tải lại trực tiếp /xe/vf-wild/, /tra-gop/, ảnh, popup, theme và sitemap/robots. Chưa xác nhận deploy online cho tới khi có trạng thái Success và kiểm tra URL public.

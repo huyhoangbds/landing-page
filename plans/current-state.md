@@ -249,3 +249,11 @@ Còn 6 ô, xếp 3 cột desktop / 2 tablet / 1 mobile; icon và text cùng hàn
 - Lint/TypeScript/build đạt,7nhóm test vay đạt, npm audit --omit=dev 0lỗhổng. Production tại localhost3001/session3433:21route200+metadata,robots/sitemap200. VF Wild640pxAVIF11531bytes so với gốc1003244bytes. Không phải phép đo Lighthouse.
 - Kiểm tra helper SEO: chưa SITE_URL=>noindex; cấu hình=>canonical đúng từng đường dẫn; preview=>noindex. Đang chờ tên miền thật, phải đặt SITE_URL và build lại trước phát hành.
 - Không có browser kết nối nên chưa có QA trực quan đa thiết bị/Lighthouse. Form chỉ draft+mailto, chưa gửi thư tự động.
+
+## Sửa Cloudflare Pages thiếu out — 15/09/2026
+- Bật output export/trailingSlash, bỏ ISR và force-dynamic trả góp, robots/sitemap force-static, dynamicParams=false cho route mẫu xe/chính sách.
+- ClientLoanCalculator lấy ngày Việt Nam khi hydrate để tránh dùng ngày build; form/màu xe/theme giữ client behavior.
+- images.unoptimized=true phục vụ ảnh public không cần Next image server; mất tối ưu AVIF theo request, giữ chất lượng ảnh gốc. Chưa bổ sung pipeline resize build.
+- SEO không index branch Pages khác main. Production cần SITE_URL và build lại.
+- Lint/TypeScript/build/7tests đạt; out có21route index,404,robots,sitemap; kiểm tra asset HTML không thiếu. Chưa deploy online, thay đổi chưa commit/push; bỏ qua repository rỗng lồng landing-page/.
+- DEPLOYMENT.md đã cập nhật npm run build + out, không dùng npm start/ISR cho bản Pages.

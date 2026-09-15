@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { notFound } from "next/navigation";
