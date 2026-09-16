@@ -11,21 +11,48 @@ export function ConsultationForm({
   car?: string;
   intent?: string;
 }) {
-  const [draft, setDraft] = useState("");
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [message, setMessage] = useState("");
+  const busy = useRef(false);
   const resultRef = useRef<HTMLDivElement>(null);
   return (
     <form
       className="consultation-form"
-      onSubmit={(e) => {
-        e.preventDefault();
-        const data = new FormData(e.currentTarget);
-        setDraft(
-          `Xin chào, tôi là ${data.get("name")}, SĐT ${data.get("phone")}. Tôi muốn ${data.get("car") === "VinFast VF Wild" ? "nhận thông tin" : intent.toLowerCase()} cho ${data.get("car")}. ${data.get("note") || ""}`,
-        );
-        requestAnimationFrame(() => resultRef.current?.focus());
+      aria-busy={status === "sending"}
+      onSubmit={async (event) => {
+        event.preventDefault();
+        if (busy.current || status === "success") return;
+        busy.current = true;
+        const data = new FormData(event.currentTarget);
+        data.set("intent", data.get("car") === "VinFast VF Wild" ? "Nhận thông tin" : intent);
+        data.set("_subject", "Yêu cầu tư vấn VinFast từ website");
+        setStatus("sending");
+        setMessage("Đang gửi yêu cầu…");
+        const controller = new AbortController();
+        const timeout = window.setTimeout(() => controller.abort(), 20000);
+        try {
+          const response = await fetch("https://formspree.io/f/mbglrzpb", {
+            method: "POST", body: data, headers: { Accept: "application/json" }, signal: controller.signal,
+          });
+          if (!response.ok) {
+            setStatus("error");
+            setMessage(response.status === 429 ? "Có quá nhiều yêu cầu. Vui lòng chờ vài phút rồi thử lại." : "Chưa gửi được yêu cầu. Vui lòng thử lại hoặc liên hệ qua Zalo bên dưới.");
+          } else {
+            setStatus("success");
+            setMessage("Yêu cầu đã được hệ thống tiếp nhận. Huy Hoàng sẽ liên hệ tư vấn qua số điện thoại bạn cung cấp.");
+          }
+        } catch {
+          setStatus("error");
+          setMessage("Chưa xác nhận được kết quả gửi do kết nối bị gián đoạn. Bạn có thể liên hệ Zalo để kiểm tra trước khi gửi lại.");
+        } finally {
+          window.clearTimeout(timeout);
+          busy.current = false;
+          requestAnimationFrame(() => resultRef.current?.focus());
+        }
       }}
     >
-      <p>Điền thông tin để soạn yêu cầu tư vấn gửi Huy Hoàng.</p>
+      <p>Điền thông tin để gửi yêu cầu tư vấn tới Huy Hoàng.</p>
+      <fieldset disabled={status === "sending" || status === "success"} style={{ border: 0, padding: 0, margin: 0, display: "grid", gap: 18, minWidth: 0 }}>
       <label>
         Họ và tên
         <input
@@ -45,7 +72,7 @@ export function ConsultationForm({
           type="tel"
           inputMode="tel"
           required
-          pattern="[+0-9 ()-]{9,16}"
+          pattern={String.raw`[+0-9 \(\)\-]{9,16}`}
           placeholder="Số điện thoại của bạn"
         />
       </label>
@@ -69,29 +96,18 @@ export function ConsultationForm({
           placeholder="Thời gian lái thử, phiên bản hoặc màu xe…"
         />
       </label>
+      </fieldset>
       <p className="fine-print">
-        Biểu mẫu tạo bản nháp trên thiết bị, chưa gửi cho Huy Hoàng. Bạn kiểm tra
-        và tự gửi qua email. <a className="text-link" href="/chinh-sach/bao-mat" target="_blank" rel="noopener noreferrer">Xem chính sách bảo mật</a>.
+        Khi bấm gửi, thông tin của bạn được chuyển qua Formspree để Huy Hoàng tiếp nhận và tư vấn.
+        {" "}<a className="text-link" href="/chinh-sach/bao-mat" target="_blank" rel="noopener noreferrer">Xem chính sách bảo mật</a>.
       </p>
-      <MotionButton className="button" type="submit">
-        Soạn yêu cầu {intent.toLowerCase()}
+      <MotionButton className="button" type="submit" disabled={status === "sending" || status === "success"}>
+        {status === "sending" ? "Đang gửi…" : status === "success" ? "Đã gửi yêu cầu" : `Gửi yêu cầu ${intent.toLowerCase()}`}
       </MotionButton>
-      {draft && (
-        <div ref={resultRef} className="draft-result" role="status" tabIndex={-1} aria-label="Kết quả soạn yêu cầu">
-          <strong className="feedback-heading"><CheckCircle2 size={21} aria-hidden="true" />Bản nháp đã sẵn sàng — chưa gửi</strong>
-          <p>Người nhận: {site.email}</p>
-          <p>{draft}</p>
-          <a
-            className="text-link"
-            href={`mailto:${site.email}?subject=${encodeURIComponent("Yêu cầu " + intent + " VinFast")}&body=${encodeURIComponent(draft)}`}
-          >
-            Mở email để gửi yêu cầu →
-          </a>
-          <a className="text-link" href={`tel:${site.tel}`}>
-            Hoặc gọi {site.phone}
-          </a>
-        </div>
-      )}
+      <div ref={resultRef} tabIndex={-1} role="status" aria-live="polite" className={message ? "draft-result" : undefined}>
+        {message && <p>{status === "success" && <CheckCircle2 size={21} aria-hidden="true" />} {message}</p>}
+        {status === "error" && <a className="text-link" href={`https://zalo.me/${site.tel}`} target="_blank" rel="noopener noreferrer">Liên hệ Zalo →</a>}
+      </div>
     </form>
   );
 }

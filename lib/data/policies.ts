@@ -6,7 +6,7 @@ type Policy = {
   sections: { heading: string; paragraphs: string[] }[];
 };
 
-export const policyUpdated = "14/09/2026";
+export const policyUpdated = "16/09/2026";
 export const policies: Record<string, Policy> = {
   "dieu-khoan": {
     title: "Chính sách và bảo mật",
@@ -66,18 +66,18 @@ export const policies: Record<string, Policy> = {
         `Huy Hoàng là người tiếp nhận yêu cầu tư vấn qua ${site.email}, điện thoại/Zalo ${site.phone}. Bạn có thể dùng các kênh này để hỏi về việc sử dụng thông tin của mình hoặc yêu cầu hỗ trợ quyền riêng tư.`
       ] },
       { heading: "Thông tin trong biểu mẫu và kênh liên hệ", paragraphs: [
-        "Biểu mẫu hiện tại gồm họ tên, số điện thoại, dòng xe quan tâm và lời nhắn. Bấm “Soạn yêu cầu” chỉ tạo bản nháp trong trang đang mở; website chưa có chức năng tự gửi bản nháp tới máy chủ nhận tư vấn.",
-        "Khi bấm “Mở email”, nội dung được chuyển sang ứng dụng hoặc dịch vụ email của bạn để kiểm tra. Huy Hoàng chỉ nhận email khi bạn thực hiện gửi. Nếu liên hệ bằng Zalo hoặc điện thoại, thông tin nhận được là nội dung bạn chia sẻ và thông tin tài khoản/số gọi mà dịch vụ hiển thị.",
+        "Biểu mẫu gồm họ tên, số điện thoại, dòng xe quan tâm và lời nhắn. Khi bạn bấm gửi, dữ liệu được chuyển qua dịch vụ Formspree để tiếp nhận yêu cầu tư vấn cho Huy Hoàng.",
+        "Nếu bạn chọn liên hệ bằng email thay vì biểu mẫu, Huy Hoàng chỉ nhận nội dung khi bạn gửi thư từ ứng dụng email. Nếu liên hệ bằng Zalo hoặc điện thoại, thông tin nhận được là nội dung bạn chia sẻ và thông tin tài khoản/số gọi mà dịch vụ hiển thị.",
         "Không gửi mật khẩu, mã OTP, thông tin thẻ thanh toán, ảnh căn cước hoặc hồ sơ tài chính qua biểu mẫu hỏi xe. Nếu cần hồ sơ cho một giao dịch cụ thể, hãy xác nhận trực tiếp kênh tiếp nhận của đơn vị thực hiện giao dịch."
       ] },
       { heading: "Mục đích sử dụng và chia sẻ", paragraphs: [
         "Thông tin được dùng để trả lời câu hỏi, liên hệ về mẫu xe bạn quan tâm, trao đổi báo giá hoặc sắp xếp lịch hẹn theo đề nghị. Không bán dữ liệu hoặc mặc nhiên dùng yêu cầu tư vấn làm sự đồng ý nhận quảng cáo không liên quan.",
         "Việc chuyển thông tin cho đại lý, đơn vị tổ chức lái thử hoặc bên hỗ trợ khoản vay cần được thông báo rõ và có sự đồng ý phù hợp trước khi thực hiện, trừ trường hợp pháp luật cho phép hoặc yêu cầu khác. Không tự động chuyển nội dung biểu mẫu cho các đơn vị này.",
-        "Khi bạn sử dụng email, Zalo hoặc bản đồ, nhà cung cấp dịch vụ xử lý dữ liệu theo chính sách riêng. Một số dịch vụ có thể lưu trữ hoặc xử lý dữ liệu ngoài Việt Nam; chính sách này không thay thế chính sách của họ."
+        "Khi bạn sử dụng Formspree, email, Zalo hoặc bản đồ, nhà cung cấp dịch vụ xử lý dữ liệu theo chính sách riêng. Một số dịch vụ có thể lưu trữ hoặc xử lý dữ liệu ngoài Việt Nam; chính sách này không thay thế chính sách của họ."
       ] },
       { heading: "Lưu trữ trên thiết bị và dữ liệu kỹ thuật", paragraphs: [
         "Website ghi nhớ lựa chọn nền sáng/tối trong bộ nhớ trình duyệt trên thiết bị. Bạn có thể xóa lựa chọn này bằng chức năng xóa dữ liệu trang web của trình duyệt. Website hiện không gắn công cụ phân tích hành vi hoặc quảng cáo để theo dõi người truy cập.",
-        "Dữ liệu nhập vào công cụ trả góp được tính trong trình duyệt, không tự gửi thành hồ sơ vay. Bản nháp tư vấn không được website chủ động lưu lâu dài; trình duyệt hoặc dịch vụ email có thể giữ dữ liệu tự điền, lịch sử hoặc bản nháp theo cài đặt của bạn.",
+        "Dữ liệu nhập vào công cụ trả góp được tính trong trình duyệt, không tự gửi thành hồ sơ vay. Yêu cầu tư vấn được xử lý qua Formspree và kênh nhận thư của Huy Hoàng. Bạn có thể liên hệ Huy Hoàng để yêu cầu kiểm tra hoặc xóa thông tin đã gửi.",
         "Hạ tầng phục vụ website có thể phát sinh nhật ký kỹ thuật như địa chỉ IP, thời điểm truy cập, trình duyệt hoặc lỗi truy cập nhằm phục vụ vận hành và bảo vệ hệ thống. Đây không phải nội dung biểu mẫu đã được gửi cho người tư vấn."
       ] },
       { heading: "Thời gian lưu và bảo vệ thông tin", paragraphs: [

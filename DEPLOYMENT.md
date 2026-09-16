@@ -60,6 +60,6 @@ Trang chủ không dùng ISR; nội dung JSON được cập nhật khi build l�
 
 Ảnh dùng đường dẫn public trực tiếp (`images.unoptimized`), không cần server Next Image và không có tối ưu AVIF theo request như bản server trước đó. Giữ ảnh gốc HD, ảnh lớn có thể tải nặng hơn. Có thể bổ sung bộ tạo ảnh nhiều kích thước ở build sau.
 
-Form tạo bản nháp và mở email bằng mailto tới hoangnh.qo@gmail.com, người dùng vẫn phải tự gửi. Chưa có dịch vụ gửi mail tự động.
+Form gửi trực tiếp tới https://formspree.io/f/mbglrzpb bằng AJAX. Trong Formspree, xác minh email nhận hoangnh.qo@gmail.com và cấu hình thông báo email. Thành công trên website chỉ xác nhận Formspree tiếp nhận, không xác nhận thư đã vào Inbox. Kiểm tra Submissions và Spam khi nghiệm thu; nếu bật CAPTCHA/Turnstile, cần tích hợp widget tương ứng trước.
 
 Sau deploy, kiểm tra trang chủ, tải lại trực tiếp /xe/vf-wild/, /tra-gop/, ảnh, popup, theme và sitemap/robots. Chưa xác nhận deploy online cho tới khi có trạng thái Success và kiểm tra URL public.

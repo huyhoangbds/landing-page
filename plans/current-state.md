@@ -257,3 +257,9 @@ Còn 6 ô, xếp 3 cột desktop / 2 tablet / 1 mobile; icon và text cùng hàn
 - SEO không index branch Pages khác main. Production cần SITE_URL và build lại.
 - Lint/TypeScript/build/7tests đạt; out có21route index,404,robots,sitemap; kiểm tra asset HTML không thiếu. Chưa deploy online, thay đổi chưa commit/push; bỏ qua repository rỗng lồng landing-page/.
 - DEPLOYMENT.md đã cập nhật npm run build + out, không dùng npm start/ISR cho bản Pages.
+
+## Formspree — 16/09/2026
+- Người dùng cung cấp endpoint https://formspree.io/f/mbglrzpb. Form POST FormData với Accept application/json, có intent, tên/số điện thoại/mẫu xe/lời nhắn.
+- Trạng thái sending/success/error; chặn submit trùng bằng ref và disabled, timeout20s, lỗi429/mạng có hướng dẫn và linkZalo, giữ dữ liệu nhập.
+- Bỏ luồng chỉ tạo draft/mailto trong popup. Policy và DEPLOYMENT cập nhật xử lý Formspree. Email đích phải được xác minh trong dashboard Formspree, chưa kiểm tra được cấu hình tài khoản.
+- Lint/TypeScript/static build đạt trước chỉnh câu policy cuối. Chưa gửi email thật, chưa test giao diện browser, chưa deploy/push.
