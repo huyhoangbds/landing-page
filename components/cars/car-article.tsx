@@ -54,6 +54,7 @@ export function CarArticle({ slug, name }: { slug: string; name: string }) {
       <a href="#bai-vf-8-new">VF 8 Thế hệ mới</a>
     </div>}
     {editions.map((edition, i) => <ArticleBody key={edition.name} article={edition} prefix={`bai-${i === 1 ? 'vf-8-new' : slug}`} showName={editions.length > 1} />)}
+    {slug === "vf-wild" && <p className={styles.articleDisclaimer}>Nguồn: <a href="https://vinfastvietnam.com.vn/vinfast-vf-wild/" target="_blank" rel="noreferrer">Trang tham khảo VF Wild</a> và <a href="https://vinfastauto.com/vn_vi/vinfast-ra-mat-xe-ban-tai-dien-vf-wild-tai-viet-nam" target="_blank" rel="noreferrer">thông cáo VinFast 19/09/2026</a>. Các mục đánh dấu * theo trang tham khảo, cần xác nhận khi tư vấn. Phạm vi mở rộng dùng số liệu thông cáo hãng thay cho thông tin trên 1.100 km ở trang tham khảo.</p>}
     <p className={styles.articleDisclaimer}>Thông số và trang bị áp dụng theo từng phiên bản. Quãng đường theo NEDC/WLTP và thời gian sạc phụ thuộc điều kiện thử nghiệm, trạm sạc và cách sử dụng thực tế. Vui lòng liên hệ tư vấn để xác nhận cấu hình xe trước khi mua.</p>
   </article>;
 }

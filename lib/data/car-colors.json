@@ -538,5 +538,35 @@
         "swatch": "/images/colors/swatches/CE18.webp"
       }
     ]
+  },
+  "vf-wild": {
+    "source": "Ảnh do chủ website cung cấp",
+    "edition": "VF Wild",
+    "colors": [
+      {
+        "code": "silver",
+        "name": "Bạc (nâng cao)",
+        "image": "/images/vf-wild/silver-isolated.webp",
+        "swatch": "/images/colors/swatches/CE17.webp"
+      },
+      {
+        "code": "white",
+        "name": "Trắng",
+        "image": "/images/colors/vf-wild/white-isolated.webp",
+        "swatch": "/images/colors/swatches/CE18.webp"
+      },
+      {
+        "code": "red",
+        "name": "Đỏ",
+        "image": "/images/colors/vf-wild/red-isolated.webp",
+        "swatch": "/images/colors/swatches/CE2Q.webp"
+      },
+      {
+        "code": "black",
+        "name": "Đen",
+        "image": "/images/colors/vf-wild/black-isolated.webp",
+        "swatch": "/images/colors/swatches/CE11.webp"
+      }
+    ]
   }
 }

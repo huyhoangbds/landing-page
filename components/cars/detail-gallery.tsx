@@ -49,6 +49,6 @@ export function DetailGallery({ name, images, colors = [] }: {
         </div>
       </>}
     </div>
-    <p className={styles.colorNote}>{name === "VinFast VF Wild" ? "Ảnh bản concept; màu sơn và trang bị thương mại chưa được xác nhận." : colors.length ? "Màu sắc và trang bị có thể khác theo phiên bản, ánh sáng và màn hình. Liên hệ để xác nhận màu xe sẵn có." : "Liên hệ tư vấn để xem bảng màu ngoại thất và xác nhận màu xe sẵn có."}</p>
+    <p className={styles.colorNote}>{name === "VinFast VF Wild" ? "Bốn màu ngoại thất: Bạc (nâng cao), Trắng, Đỏ và Đen. Ảnh minh họa; màu thực tế có thể khác theo ánh sáng và màn hình." : colors.length ? "Màu sắc và trang bị có thể khác theo phiên bản, ánh sáng và màn hình. Liên hệ để xác nhận màu xe sẵn có." : "Liên hệ tư vấn để xem bảng màu ngoại thất và xác nhận màu xe sẵn có."}</p>
   </div>;
 }

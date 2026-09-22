@@ -136,3 +136,27 @@ test("rounding and accounting invariants across terms/rates/methods", () => {
         }
       }
 });
+
+test("two-stage declining: rate changes exactly at month 13", () => {
+  const r = calculateLoan({...base, months: 24, annualRate: 0, subsequentAnnualRate: 12});
+  assert.equal(r.rows[11].interest, 0);
+  assert.equal(r.rows[12].opening, 60_000_000);
+  assert.equal(r.rows[12].interest, 600_000);
+  assert.equal(r.rows[12].payment, 5_600_000);
+  assert.equal(r.totalInterest, 3_900_000);
+  assert.equal(r.rows.at(-1).remaining, 0);
+});
+test("two-stage annuity recalculates on outstanding balance; short loans unchanged", () => {
+  const r = calculateLoan({...base, method: "fixed", months: 24, annualRate: 0, subsequentAnnualRate: 12});
+  const expected = Math.round(60_000_000 * .01 / (1 - Math.pow(1.01, -12)));
+  assert.equal(r.rows[11].payment, 5_000_000);
+  assert.equal(r.rows[12].payment, expected);
+  assert.equal(r.rows.at(-1).remaining, 0);
+  assert.equal(r.rows.reduce((sum, row) => sum + row.principal, 0), base.principal);
+  assert.deepEqual(calculateLoan({...base, subsequentAnnualRate: 35}), calculateLoan(base));
+  assert.ok(validateLoan({...base, subsequentAnnualRate: NaN}));
+  assert.ok(validateLoan({...base, subsequentAnnualRate: -1}));
+  const zero = calculateLoan({...base, method: "fixed", months: 24, subsequentAnnualRate: 0});
+  assert.equal(zero.rows[12].interest, 0);
+  assert.equal(zero.rows.at(-1).remaining, 0);
+});

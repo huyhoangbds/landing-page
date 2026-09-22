@@ -36,7 +36,7 @@ git remote add origin https://github.com/huyhoangbds/landing-page.git
 git push -u origin main
 ```
 
-Dự án đã có Git, không cần `git init`. Hiện chưa cấu hình remote. Nếu sau này báo origin đã tồn tại, xem `git remote -v` và đối chiếu đúng repository trước khi đổi. Xác thực theo GitHub CLI/Git Credential Manager hoặc SSH; không nhập token vào mã nguồn hay URL remote. `.env` và cache đã được bỏ qua; `.env.example` được lưu. `plans/sources/` là tư liệu gốc lưu riêng tại máy, không cần khi chạy website; các JSON đã nhập nằm trong lib/data.
+Dự án đã có Git, không cần `git init`. Remote hiện tại là `https://github.com/huyhoangbds/landing-page.git`, nhánh `main`; không cần chạy lại `git remote add origin`. Nếu sau này báo origin đã tồn tại, xem `git remote -v` và đối chiếu đúng repository trước khi đổi. Xác thực theo GitHub CLI/Git Credential Manager hoặc SSH; không nhập token vào mã nguồn hay URL remote. `.env` và cache đã được bỏ qua; `.env.example` được lưu. `plans/sources/` là tư liệu gốc lưu riêng tại máy, không cần khi chạy website; các JSON đã nhập nằm trong lib/data.
 
 Nguồn: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
 
@@ -63,3 +63,24 @@ Trang chủ không dùng ISR; nội dung JSON được cập nhật khi build l�
 Form gửi trực tiếp tới https://formspree.io/f/mbglrzpb bằng AJAX. Trong Formspree, xác minh email nhận hoangnh.qo@gmail.com và cấu hình thông báo email. Thành công trên website chỉ xác nhận Formspree tiếp nhận, không xác nhận thư đã vào Inbox. Kiểm tra Submissions và Spam khi nghiệm thu; nếu bật CAPTCHA/Turnstile, cần tích hợp widget tương ứng trước.
 
 Sau deploy, kiểm tra trang chủ, tải lại trực tiếp /xe/vf-wild/, /tra-gop/, ảnh, popup, theme và sitemap/robots. Chưa xác nhận deploy online cho tới khi có trạng thái Success và kiểm tra URL public.
+
+
+## Bản chuẩn bị ngày 22/09/2026
+
+Đã kiểm tra lint, TypeScript, build static 26 trang và 9 bài kiểm tra tính trả góp. Bản này gồm VF Wild giá ưu đãi chỉ từ 799 triệu, bốn ảnh màu ngoại thất tách nền, ưu đãi tiên phong 61 triệu và công cụ vay hai giai đoạn lãi suất.
+
+### Deploy dự án đã liên kết GitHub
+
+1. Trong GitHub Desktop, chọn repository `landing-page`, nhánh `main`.
+2. Kiểm tra Changes có mã nguồn và ảnh WebP mới. Thư mục `out`, `deploy-artifacts`, `.env`, `node_modules` và checkout lồng `landing-page/` được bỏ qua.
+3. Summary: `Prepare VF Wild and financing updates for deployment`, bấm **Commit to main**, sau đó **Push origin**.
+4. Cloudflare Pages: mở dự án đang dùng, kiểm tra build command `npm run build`, output `out`, root để trống. Deploy commit vừa push, không retry commit cũ.
+5. Đợi Success rồi kiểm tra `/xe/vf-wild/`, chọn lần lượt đủ bốn màu; kiểm tra giá 799 triệu, ưu đãi và `/tra-gop/`.
+
+### Gói static dự phòng
+
+`deploy-artifacts/landing-page-pages.zip` chứa nội dung của `out/` với `index.html` ngay ở gốc ZIP. Đây là gói website đã build, không phải mã nguồn để commit. Dự án hiện đã dùng Git integration nên ưu tiên Push origin để cập nhật. Gói này có thể dùng cho một dự án Pages Direct Upload riêng.
+
+Bản build thử không tự thay SITE_URL. Nếu muốn Google index website, đặt SITE_URL đúng tên miền trong Cloudflare rồi build lại; bản không có SITE_URL sẽ noindex.
+
+Hướng dẫn Cloudflare static export: https://developers.cloudflare.com/pages/framework-guides/nextjs/deploy-a-static-nextjs-site/

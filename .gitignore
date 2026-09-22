@@ -52,3 +52,10 @@ next-env.d.ts
 *.log
 Thumbs.db
 *.key
+
+# macOS resource forks
+._*
+
+# Local nested checkout and deployment packages
+/landing-page/
+/deploy-artifacts/

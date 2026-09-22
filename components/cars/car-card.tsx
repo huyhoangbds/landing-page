@@ -42,7 +42,7 @@ export function CarCard({ car, showcase = false }: { car: Car; showcase?: boolea
           <Link href={`/xe/${car.slug}`}>{car.name}</Link>
         </h3>
         <div className="price-row">
-          <span>{car.price === null ? "Giá bán" : "Giá tham khảo từ"}</span>
+          <span>{car.slug === "vf-wild" ? "Chỉ từ" : car.price === null ? "Giá bán" : "Giá tham khảo từ"}</span>
           <strong>{formatPrice(car.price)}</strong>
         </div>
         <div className="car-actions">

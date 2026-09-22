@@ -3,12 +3,12 @@ import { formatCurrency } from "@/lib/format";
 import styles from "./financing.module.css";
 
 type Props = {
-  price: string; loan: string; months: string; rate: string; date: string;
+  price: string; loan: string; months: string; rate: string; subsequentRate: string; setSubsequentRate: (value: string) => void; date: string;
   input: LoanInput; ratio: number; error: string | null;
   changePrice: (value: string) => void; setLoan: (value: string) => void;
   setMonths: (value: string) => void; setRate: (value: string) => void; setDate: (value: string) => void;
 };
-export function LoanFields({ price, loan, months, rate, date, input, ratio, error, changePrice, setLoan, setMonths, setRate, setDate }: Props) {
+export function LoanFields({ price, loan, months, rate, subsequentRate, setSubsequentRate, date, input, ratio, error, changePrice, setLoan, setMonths, setRate, setDate }: Props) {
   return (<div className={styles.fields}>
           <div className={styles.field}>
             <label htmlFor="vehicle-price">
@@ -18,13 +18,10 @@ export function LoanFields({ price, loan, months, rate, date, input, ratio, erro
               <div className={styles.inputBox}>
                 <input
                   id="vehicle-price"
-                  type="number"
-                  min={1}
-                  max={20000000000}
-                  step={1}
+                  type="text"
                   inputMode="numeric"
-                  value={price}
-                  onChange={(e) => changePrice(e.target.value)}
+                  value={price.replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+                  onChange={(e) => changePrice(e.target.value.replace(/[^0-9]/g, "").slice(0, 11))}
                 />
                 <span>VNĐ</span>
               </div>
@@ -80,17 +77,10 @@ export function LoanFields({ price, loan, months, rate, date, input, ratio, erro
               <div className={styles.inputBox}>
                 <input
                   id="loan-amount"
-                  type="number"
-                  min={0}
-                  max={
-                    Number.isFinite(input.vehiclePrice)
-                      ? Math.floor(input.vehiclePrice * 0.85)
-                      : undefined
-                  }
-                  step={1}
+                  type="text"
                   inputMode="numeric"
-                  value={loan}
-                  onChange={(e) => setLoan(e.target.value)}
+                  value={loan.replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+                  onChange={(e) => setLoan(e.target.value.replace(/[^0-9]/g, "").slice(0, 11))}
                 />
                 <span>VNĐ</span>
               </div>
@@ -121,7 +111,7 @@ export function LoanFields({ price, loan, months, rate, date, input, ratio, erro
           </div>
           <div className={styles.field}>
             <label htmlFor="loan-rate">
-              Lãi suất<small>Tỷ lệ minh họa, có thể thay đổi</small>
+              Lãi suất năm đầu<small>Cố định trong 12 tháng đầu (%/năm)</small>
             </label>
             <div className={styles.inputBox}>
               <input
@@ -134,6 +124,13 @@ export function LoanFields({ price, loan, months, rate, date, input, ratio, erro
                 value={rate}
                 onChange={(e) => setRate(e.target.value)}
               />
+              <span>%/năm</span>
+            </div>
+          </div>
+          <div className={styles.field}>
+            <label htmlFor="loan-subsequent-rate">Lãi suất từ năm thứ hai<small>Mức thả nổi dự kiến từ tháng 13, dùng để mô phỏng</small></label>
+            <div className={styles.inputBox}>
+              <input id="loan-subsequent-rate" type="number" min={0} max={100} step="any" inputMode="decimal" value={subsequentRate} onChange={(event) => setSubsequentRate(event.target.value)} />
               <span>%/năm</span>
             </div>
           </div>

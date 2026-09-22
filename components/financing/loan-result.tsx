@@ -34,13 +34,17 @@ export function LoanResult({ result, method, input, expanded, setExpanded }: Pro
                 </div>
               ) : (
                 <div className={styles.mainPayment}>
-                  <span>Mỗi tháng</span>
+                  <span>Mỗi tháng trong năm đầu</span>
                   <strong>{formatCurrency(result.regularPayment)}</strong>
                   <small>
                     Kỳ cuối: {formatCurrency(result.lastPayment)} (điều chỉnh làm tròn).
                   </small>
                 </div>
               )}
+              {result.rows[12] && <div className={styles.mainPayment}>
+                <span>Tháng 13 · lãi suất dự kiến {input.subsequentAnnualRate}%/năm</span>
+                <strong>{formatCurrency(result.rows[12].payment)}</strong>
+              </div>}
               <dl>
                 <div>
                   <dt>Tổng lãi phải trả</dt>

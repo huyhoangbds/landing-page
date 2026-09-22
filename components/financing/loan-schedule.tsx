@@ -27,6 +27,7 @@ export function LoanSchedule({
           <tr>
             <th scope="col">Kỳ</th>
             <th scope="col">Ngày trả</th>
+            <th scope="col">Lãi suất (%/năm)</th>
             <th scope="col">Gốc trả</th>
             <th scope="col">Lãi trả</th>
             <th scope="col">Tổng trả</th>
@@ -38,6 +39,7 @@ export function LoanSchedule({
             <tr key={row.month}>
               <th scope="row">{row.month}</th>
               <td>{row.date.split("-").reverse().join("/")}</td>
+              <td>{row.annualRate.toLocaleString("vi-VN")}%</td>
               <td>{formatNumber(row.principal)}</td>
               <td>{formatNumber(row.interest)}</td>
               <td>{formatNumber(row.payment)}</td>
@@ -47,7 +49,7 @@ export function LoanSchedule({
         </tbody>
         <tfoot>
           <tr>
-            <th scope="row" colSpan={2}>
+            <th scope="row" colSpan={3}>
               Tổng cộng
             </th>
             <td>{formatNumber(totalPayment - totalInterest)}</td>

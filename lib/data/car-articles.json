@@ -1754,5 +1754,111 @@
         "sourceRow": 21
       }
     ]
+  },
+  "vf-wild": {
+    "name": "VinFast VF Wild",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "VF Wild ra mắt tại Việt Nam ngày 19/09/2026. Mẫu bán tải sử dụng hệ thống điện mở rộng phạm vi REEV."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "Thiết kế Fluid Dynamism nối liền cabin với thùng hàng. Mâm 18 inch đi cùng lốp 255/70 R18; có bệ bước hỗ trợ tiếp cận thùng sau."
+        ],
+        "table": null,
+        "image": "/images/vf-wild/exterior-2026.webp",
+        "caption": "Hình ảnh tham khảo từ vinfastvietnam.com.vn; trang bị cần đối chiếu theo phiên bản."
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Cabin 5 chỗ, ghế da phối nỉ, cần số đặt sau vô-lăng và sàn phẳng ở hàng ghế sau."
+        ],
+        "table": null,
+        "image": "/images/vf-wild/interior-2026.webp",
+        "caption": "Hình ảnh tham khảo từ vinfastvietnam.com.vn; trang bị cần đối chiếu theo phiên bản."
+      },
+      {
+        "id": "cong-nghe",
+        "title": "Công nghệ và hỗ trợ sử dụng",
+        "paragraphs": [
+          "Có trợ lý ảo, kết nối điều khiển từ xa và cập nhật phần mềm FOTA. Các tính năng phụ thuộc cấu hình được bàn giao."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null
+      },
+      {
+        "id": "van-hanh",
+        "title": "Vận hành",
+        "paragraphs": [
+          "Pin LFP 46,4 kWh; mô-tơ dẫn động, động cơ xăng hỗ trợ phát điện. Chạy thuần điện hơn 250 km theo NEDC; thông cáo hãng nêu phạm vi mở rộng tới 1.000 km. Có V2L cấp điện ngoài."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [
+          "Dữ liệu đối chiếu ngày 22/09/2026. Quãng đường thực tế phụ thuộc tải trọng và điều kiện vận hành."
+        ],
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "Thông số"
+          ],
+          "rows": [
+            [
+              "Dài × rộng × cao",
+              "5.376 × 2.069 × 1.873 mm"
+            ],
+            [
+              "Trục cơ sở",
+              "3.258 mm"
+            ],
+            [
+              "Thùng hàng",
+              "1.574 × 1.512 × 509 mm"
+            ],
+            [
+              "Tải trọng (theo hãng)",
+              "750 kg"
+            ],
+            [
+              "Công suất*",
+              "160 kW"
+            ],
+            [
+              "Mô-men xoắn*",
+              "280 Nm"
+            ]
+          ]
+        },
+        "image": null,
+        "caption": null
+      },
+      {
+        "id": "gia-ban",
+        "title": "Giá bán và thông tin tư vấn",
+        "paragraphs": [
+          "Giá ưu đãi chỉ từ 799 triệu đồng, đã bao gồm giảm 61 triệu đồng cho đặt cọc tiên phong. Giá niêm yết: 860 triệu đồng cho đen, đỏ, trắng; 872 triệu đồng cho bạc. Hãng công bố ưu đãi 61 triệu đồng khi mở cọc sớm 25–30/09/2026, theo điều kiện chương trình. Liên hệ Huy Hoàng 0941 610 797 để xác nhận; website không thu tiền đặt cọc."
+        ],
+        "table": null,
+        "image": null,
+        "caption": null
+      }
+    ]
   }
 }

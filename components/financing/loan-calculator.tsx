@@ -15,7 +15,7 @@ const parseNumericInput = (value: string) =>
   value.trim() === "" ? NaN : Number(value);
 const methods = [
   { id: "declining", label: "Dư nợ giảm dần" },
-  { id: "fixed", label: "Trả hàng tháng cố định" },
+  { id: "fixed", label: "Trả đều theo từng giai đoạn" },
 ] as const;
 export function LoanCalculator({ today }: { today: string }) {
   const [method, setMethod] = useState<LoanMethod>("declining");
@@ -23,6 +23,7 @@ export function LoanCalculator({ today }: { today: string }) {
   const [loan, setLoan] = useState("420000000");
   const [months, setMonths] = useState("60");
   const [rate, setRate] = useState("7.5");
+  const [subsequentRate, setSubsequentRate] = useState("10.5");
   const [date, setDate] = useState(today);
   const [expanded, setExpanded] = useState(false);
   const input: LoanInput = {
@@ -30,6 +31,7 @@ export function LoanCalculator({ today }: { today: string }) {
     principal: parseNumericInput(loan),
     months: parseNumericInput(months),
     annualRate: parseNumericInput(rate),
+    subsequentAnnualRate: parseNumericInput(subsequentRate),
     startDate: date,
     method,
   };
@@ -110,14 +112,14 @@ export function LoanCalculator({ today }: { today: string }) {
         aria-labelledby={`loan-tab-${method}`}
         className={styles.calculatorGrid}
       >
-        <LoanFields {...{price, loan, months, rate, date, input, ratio, error, changePrice, setLoan, setMonths, setRate, setDate}} />
+        <LoanFields {...{price, loan, months, rate, subsequentRate, setSubsequentRate, date, input, ratio, error, changePrice, setLoan, setMonths, setRate, setDate}} />
         <LoanResult {...{result, method, input, expanded, setExpanded}} />
       </div>
       <p className={styles.assumptions}>
         {method === "declining"
           ? "Gốc chia đều theo kỳ; lãi tính trên dư nợ đầu kỳ."
-          : "Tổng gốc và lãi gần như cố định mỗi tháng; tỷ trọng gốc tăng và lãi giảm dần."}{" "}
-        Lãi tháng = lãi năm / 12, giả định lãi suất không đổi suốt kỳ vay. Kỳ
+          : "Khoản trả đều trong từng giai đoạn; tháng 13 tính lại theo dư nợ và thời hạn còn lại."}{" "}
+        Lãi tháng = lãi năm / 12, 12 tháng đầu dùng lãi suất cố định; từ tháng 13 dùng lãi suất dự kiến bạn nhập. Lãi thả nổi thực tế có thể thay đổi theo từng kỳ điều chỉnh của ngân hàng. Kỳ
         đầu sau một tháng giải ngân; ngày cuối tháng được điều chỉnh nếu cần. Số
         tiền làm tròn đến đồng. Kết quả tham khảo, chưa gồm phí, bảo hiểm và
         thay đổi lãi suất; lịch thực tế của ngân hàng có thể dùng số ngày thực

@@ -59,8 +59,8 @@ export const cars = [
   {
     slug: "vf-wild",
     name: "VinFast VF Wild",
-    price: null,
-    image: "/images/vf-wild/home-isolated.webp",
+    price: 799,
+    image: "/images/vf-wild/silver-isolated.webp",
     group: "passenger",
   },
   {

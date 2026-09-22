@@ -4,10 +4,12 @@ export type LoanInput = {
   principal: number;
   months: number;
   annualRate: number;
+  subsequentAnnualRate?: number;
   startDate: string;
   method: LoanMethod;
 };
 export type LoanRow = {
+  annualRate: number;
   month: number;
   date: string;
   opening: number;
@@ -56,6 +58,8 @@ export function validateLoan(input: LoanInput): string | null {
     input.annualRate > 100
   )
     return "Nhập lãi suất từ 0 đến 100%/năm.";
+  if (input.subsequentAnnualRate !== undefined && (!Number.isFinite(input.subsequentAnnualRate) || input.subsequentAnnualRate < 0 || input.subsequentAnnualRate > 100))
+    return "Nhập lãi suất từ năm thứ hai trong khoảng 0 đến 100%/năm.";
   if (!validDate(input.startDate))
     return "Chọn ngày giải ngân hợp lệ trong khoảng năm 2000–2100.";
   if (input.method !== "declining" && input.method !== "fixed")
@@ -74,17 +78,25 @@ export function calculateLoan(input: LoanInput) {
   );
   const rows: LoanRow[] = [];
   let remaining = principal;
+  let currentPayment = regularPayment;
   for (let month = 1; month <= months && principal > 0; month++) {
     const opening = remaining;
-    const interest = Math.round(opening * rate);
+    const rowAnnualRate = month <= 12 ? annualRate : (input.subsequentAnnualRate ?? annualRate);
+    const monthlyRate = rowAnnualRate / 1200;
+    if (month === 13 && rowAnnualRate !== annualRate) {
+      const remainingMonths = months - 12;
+      currentPayment = Math.round(monthlyRate === 0 ? opening / remainingMonths : opening * monthlyRate / -Math.expm1(-remainingMonths * Math.log1p(monthlyRate)));
+    }
+    const interest = Math.round(opening * monthlyRate);
     const installment =
       method === "declining"
         ? Math.round((principal * month) / months) -
           Math.round((principal * (month - 1)) / months)
-        : Math.max(0, regularPayment - interest);
+        : Math.max(0, currentPayment - interest);
     const repaid = month === months ? opening : Math.min(opening, installment);
     remaining = opening - repaid;
     rows.push({
+      annualRate: rowAnnualRate,
       month,
       date: paymentDate(startDate, month),
       opening,

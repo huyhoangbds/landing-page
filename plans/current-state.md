@@ -263,3 +263,37 @@ Còn 6 ô, xếp 3 cột desktop / 2 tablet / 1 mobile; icon và text cùng hàn
 - Trạng thái sending/success/error; chặn submit trùng bằng ref và disabled, timeout20s, lỗi429/mạng có hướng dẫn và linkZalo, giữ dữ liệu nhập.
 - Bỏ luồng chỉ tạo draft/mailto trong popup. Policy và DEPLOYMENT cập nhật xử lý Formspree. Email đích phải được xác minh trong dashboard Formspree, chưa kiểm tra được cấu hình tài khoản.
 - Lint/TypeScript/static build đạt trước chỉnh câu policy cuối. Chưa gửi email thật, chưa test giao diện browser, chưa deploy/push.
+
+## Hai giai đoạn lãi suất — 22/09/2026
+- Công cụ vay: lãi suất năm đầu và mức dự kiến từ tháng13. Default7.5/10.5 là mô phỏng, không dữ liệu ngân hàng trực tiếp.
+- Gốc đều giữ phân bổ gốc, lãi đổi từ kỳ13. Annuity tính lại khoản trả ở kỳ13 từ dư nợ và thời hạn còn lại; đổi nhãn trả đều theo từng giai đoạn.
+- Kết quả có khoản trả tháng13; lịch trả nợ thêm lãi suất mỗi kỳ. Giá xe nhập có dấu chấm, giá trị lưu số nguyên dạng chuỗi.
+- 9 nhóm tests đạt gồm biên12/13, hạn<=12,0%,recast và đối soát gốc; lint/TypeScript/static export đạt. Chưa QA browser/deploy.
+- Bỏ qua AppleDouble ._* trong Git/ESLint/TypeScript để file metadata ổ ngoài không gây lỗi build.
+
+## VF Wild cập nhật — 22/09/2026
+- Đọc trang người dùng https://vinfastvietnam.com.vn/vinfast-vf-wild/ và đối chiếu thông cáo hãng 19/09/2026 https://vinfastauto.com/vn_vi/vinfast-ra-mat-xe-ban-tai-dien-vf-wild-tai-viet-nam.
+- Chuyển VF Wild dùng CarArticle chung,7mục: tổng quan/ngoại thất/nội thất/công nghệ/vận hành/thông số/giá; thêm2ảnh WebP nguồn người dùng.
+- Đồng bộ giá niêm yết860triệu, bạc872triệu. Thông cáo hãng nêu mở cọc25–30/09/2026 ưu đãi61triệu có điều kiện; không coi ưu đãi là giá niêm yết.
+- Dùng quãng đường hãng tới1000km thay số1100km trang tham khảo; công suất/moment có dấu* theo nguồn tham khảo. Ảnh đại diện concept giữ nguyên yêu cầu cũ, có chú thích tại gallery.
+- Lint/TypeScript/static build đạt; chưa deploy. WildArticle cũ không còn được gọi, giữ file lịch sử chưa xóa.
+
+
+## VF Wild exterior colors — 2026-09-22
+- Added supplied silver (premium), white, red and black photos to public/images/colors/vf-wild; silver is default.
+- Built-in imagegen background-extraction prompt: extract exact silver truck, preserve geometry/paint/angle, transparent background and subtle contact shadow, no added text. Generated alpha-preserving WebP at public/images/vf-wild/silver-isolated.webp; shared by car catalogue and prices (home/menu/detail).
+- Updated gallery caption; lint, TypeScript and static build passed; asset/export references checked. Not pushed/deployed.
+
+## VF Wild color background correction — 2026-09-22
+- Fixed selector still referencing original scenic JPGs: all 4 now use transparent isolated WebP assets (silver shared with homepage/menu; white/red/black in public/images/colors/vf-wild/*-isolated.webp).
+- Built-in imagegen prompt: extract exact truck, remove all environment, preserve paint/shape/camera angle, transparent alpha and subtle contact shadow. Inspected each generated color against a light background and verified alpha.
+- Reused standard purchase offers/actions for VF Wild and added bold pioneer deposit discount of 61 million VND.
+- Corrected cars.ts VF Wild price unit to 860 (millions), keeping prices.json VND values intact.
+- Lint, TypeScript, static build passed; exported color paths/offer/price assertions passed. Browser UI unavailable. Not pushed/deployed.
+
+- VF Wild starting promotional price updated to 799 million on home/detail/price page/article per user. Clearly includes 61 million pioneer discount; original listed prices retained in price table. Lint/build passed.
+
+## Deploy preparation — 2026-09-22
+- Latest static export includes all VF Wild updates and 799 million price. Lint/build/TypeScript passed; 9 loan tests passed.
+- deploy-artifacts/landing-page-pages.zip and verification.json prepared locally; archive is ignored by Git. Nested empty landing-page checkout ignored.
+- DEPLOYMENT.md updated for existing GitHub origin/main and GitHub Desktop push flow. Not committed, pushed or published.

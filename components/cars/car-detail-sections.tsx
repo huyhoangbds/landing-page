@@ -1,4 +1,3 @@
-import { WildArticle } from "./wild-article";
 import articles from "@/lib/data/car-articles.json";
 import { CarArticle } from "./car-article";
 import Image from "next/image";
@@ -6,7 +5,6 @@ import { Reveal } from "@/components/ui/reveal";
 import details from "@/lib/data/details.json";
 import styles from "./detail.module.css";
 export function CarDetailSections({ slug, name }: { slug: keyof typeof details; name: string }) {
-  if (slug === "vf-wild") return <WildArticle />;
   if (slug in articles) return <CarArticle slug={slug} name={name} />;
   const detail = details[slug];
   const sections = detail.sections.filter(section => !section.image.includes("logo-"));

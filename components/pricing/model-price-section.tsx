@@ -39,6 +39,7 @@ export function ModelPriceSection({ car }: { car: PriceModel }) {
           </div>
         </div>
         <div className={styles.tableWrap}>
+          {car.id === "gia_xe_vf_wild" && <p><strong>VF Wild chỉ từ 799 triệu đồng</strong> — đã bao gồm ưu đãi đặt cọc tiên phong giảm 61 triệu đồng. Bảng dưới là giá niêm yết.</p>}
           <table className={styles.table}>
             <caption className="sr-only">
               Giá từng phiên bản {car.title}, đơn vị VNĐ

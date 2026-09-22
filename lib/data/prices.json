@@ -170,11 +170,15 @@
   {
     "id": "gia_xe_vf_wild",
     "title": "VINFAST VF WILD",
-    "image": "/images/vf-wild/home-isolated.webp",
+    "image": "/images/vf-wild/silver-isolated.webp",
     "variants": [
       {
-        "name": "VF Wild (concept)",
-        "price": null
+        "name": "VF Wild — Đen / Đỏ / Trắng",
+        "price": 860000000
+      },
+      {
+        "name": "VF Wild — Bạc",
+        "price": 872000000
       }
     ]
   }
