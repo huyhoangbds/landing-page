@@ -9,7 +9,7 @@ export function DetailSummary({ name, price }: { name: string; price: number | n
     {isWild && <span className="eyebrow">BÁN TẢI ĐIỆN · REEV</span>}
     <h1>{name}</h1>
     <div className={styles.price}><span>{isWild ? "Chỉ từ" : "Giá từ"}</span><strong>{formatPrice(price)}</strong></div>
-    <p className={styles.note}>{isWild ? "Giá chỉ từ 799 triệu đồng đã bao gồm ưu đãi đặt cọc tiên phong giảm 61 triệu đồng từ giá niêm yết 860 triệu đồng. Giá niêm yết màu bạc (nâng cao): 872 triệu đồng. Liên hệ để xác nhận điều kiện áp dụng." : priceNote}</p>
+    <p className={styles.note}>{isWild ? "Giá chỉ từ 799 triệu đồng đã bao gồm ưu đãi đặt cọc tiên phong giảm 61 triệu đồng từ giá niêm yết 860 triệu đồng. Giá niêm yết màu bạc (nâng cao): 872 triệu đồng. Liên hệ để xác nhận điều kiện áp dụng." : name === "VinFast VF 8 All-New" ? "Giá tham khảo từ 786 triệu đồng theo banner tháng 9 của Huy Hoàng. Liên hệ để xác nhận phiên bản, điều kiện ưu đãi và giá lăn bánh." : priceNote}</p>
     <div className={styles.offers}>
       <h2>ƯU ĐÃI KHI MUA XE VINFAST</h2>
       <ul>

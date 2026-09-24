@@ -1860,5 +1860,153 @@
         "caption": null
       }
     ]
+  },
+  "vf-8-all-new": {
+    "name": "VinFast VF 8 All-New",
+    "sections": [
+      {
+        "id": "tong-quan",
+        "title": "Tổng quan",
+        "paragraphs": [
+          "SUV điện 5 chỗ, thiết kế Tech Fluid, hướng tới trải nghiệm di chuyển hiện đại."
+        ],
+        "image": null,
+        "caption": null,
+        "table": null
+      },
+      {
+        "id": "ngoai-that",
+        "title": "Ngoại thất",
+        "paragraphs": [
+          "Diện mạo mới với dải đèn nhận diện và mâm 19 inch."
+        ],
+        "image": "/images/vf8-allnew/exterior.webp",
+        "caption": "Ngoại thất VF 8 All-New — ảnh VinFast",
+        "table": null
+      },
+      {
+        "id": "noi-that",
+        "title": "Nội thất",
+        "paragraphs": [
+          "Màn hình 12,9 inch; ghế lái chỉnh điện 6 hướng có nhớ vị trí; ghế sau gập 60:40."
+        ],
+        "image": "/images/vf8-allnew/interior.webp",
+        "caption": "Nội thất VF 8 All-New — ảnh VinFast",
+        "table": null
+      },
+      {
+        "id": "thong-so",
+        "title": "Thông số kỹ thuật",
+        "paragraphs": [],
+        "image": null,
+        "caption": null,
+        "table": {
+          "headers": [
+            "Hạng mục",
+            "Thông số"
+          ],
+          "rows": [
+            [
+              "Kích thước (mm)",
+              "4.701 × 1.872 × 1.670"
+            ],
+            [
+              "Công suất",
+              "170 kW"
+            ],
+            [
+              "Mô-men xoắn",
+              "330 Nm"
+            ],
+            [
+              "Pin khả dụng",
+              "60,13 kWh"
+            ],
+            [
+              "Quãng đường NEDC",
+              "480–500 km"
+            ],
+            [
+              "Sạc nhanh 10–70%",
+              "Dưới 30 phút"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "cong-nghe",
+        "title": "Công nghệ & an toàn",
+        "paragraphs": [
+          "Có trợ lý ảo, điều khiển từ xa, treo FSD và ADAS: ga tự động thích ứng, hỗ trợ giữ làn, cảnh báo điểm mù, camera 360°. Tính năng có thể cần cập nhật sau giao xe."
+        ],
+        "image": null,
+        "caption": null,
+        "table": null
+      },
+      {
+        "id": "gia",
+        "title": "Giá tham khảo & tư vấn",
+        "paragraphs": [
+          "Giá tham khảo từ 786 triệu đồng theo banner tháng 9 do Huy Hoàng cung cấp. Liên hệ 0941 610 797 để xác nhận phiên bản và điều kiện ưu đãi."
+        ],
+        "image": null,
+        "caption": null,
+        "table": null
+      }
+    ],
+    "photos": [
+      {
+        "src": "/images/vf8-allnew/hero.webp",
+        "caption": "Giới thiệu VF 8 All-New"
+      },
+      {
+        "src": "/images/vf8-allnew/exterior.webp",
+        "caption": "Ngoại thất trong đô thị"
+      },
+      {
+        "src": "/images/vf8-allnew/exterior-2.webp",
+        "caption": "Ngoại thất trên đường biển"
+      },
+      {
+        "src": "/images/vf8-allnew/exterior-3.webp",
+        "caption": "Góc nhìn ngoại thất"
+      },
+      {
+        "src": "/images/vf8-allnew/side.webp",
+        "caption": "Thiết kế thân xe"
+      },
+      {
+        "src": "/images/vf8-allnew/interior.webp",
+        "caption": "Không gian lái"
+      },
+      {
+        "src": "/images/vf8-allnew/interior-2.webp",
+        "caption": "Không gian nội thất"
+      },
+      {
+        "src": "/images/vf8-allnew/interior-3.webp",
+        "caption": "Chi tiết nội thất"
+      },
+      {
+        "src": "/images/vf8-allnew/cockpit.webp",
+        "caption": "Khoang lái và vô lăng"
+      },
+      {
+        "src": "/images/vf8-allnew/electrical.webp",
+        "caption": "Kiến trúc điện – điện tử"
+      },
+      {
+        "src": "/images/vf8-allnew/adas.webp",
+        "caption": "Hỗ trợ lái ADAS"
+      },
+      {
+        "src": "/images/vf8-allnew/assistant.webp",
+        "caption": "Trợ lý ảo"
+      },
+      {
+        "src": "/images/vf8-allnew/suspension.webp",
+        "caption": "Hệ thống treo FSD"
+      }
+    ]
   }
 }

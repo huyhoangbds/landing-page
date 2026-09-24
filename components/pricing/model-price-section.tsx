@@ -39,7 +39,7 @@ export function ModelPriceSection({ car }: { car: PriceModel }) {
           </div>
         </div>
         <div className={styles.tableWrap}>
-          {car.id === "gia_xe_vf_wild" && <p><strong>VF Wild chỉ từ 799 triệu đồng</strong> — đã bao gồm ưu đãi đặt cọc tiên phong giảm 61 triệu đồng. Bảng dưới là giá niêm yết.</p>}
+          {car.id === "gia_xe_vf_wild" && <p><strong>VF Wild chỉ từ 799 triệu đồng</strong> — đã bao gồm ưu đãi đặt cọc tiên phong giảm 61 triệu đồng.</p>}
           <table className={styles.table}>
             <caption className="sr-only">
               Giá từng phiên bản {car.title}, đơn vị VNĐ
@@ -48,7 +48,7 @@ export function ModelPriceSection({ car }: { car: PriceModel }) {
               <tr>
                 <th scope="col">MẪU XE</th>
                 <th scope="col">
-                  GIÁ THAM KHẢO <small>(VNĐ)</small>
+                  GIÁ TỪ <small>(VNĐ)</small>
                 </th>
               </tr>
             </thead>
@@ -64,7 +64,7 @@ export function ModelPriceSection({ car }: { car: PriceModel }) {
         </div>
       </div>
       <blockquote className={styles.modelNote}>
-        {car.variants.every(v => v.price === null) ? "Mẫu concept, chưa có giá chính thức được xác minh. Để tìm hiểu " : "Giá trên là Giá niêm yết của từng mẫu xe, để nhận báo giá và ưu đãi cho "}
+        {car.variants.every(v => v.price === null) ? "Mẫu concept, chưa có giá chính thức được xác minh. Để tìm hiểu " : "Giá trên là giá tham khảo từ của từng dòng xe. Giá cụ thể phụ thuộc phiên bản và ưu đãi áp dụng. Để nhận báo giá cho "}
         <strong>{car.title}</strong>, liên hệ tư vấn:{" "}
         <a href={`tel:${site.tel}`}>{site.phone}</a>.
       </blockquote>

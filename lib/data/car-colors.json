@@ -568,5 +568,95 @@
         "swatch": "/images/colors/swatches/CE11.webp"
       }
     ]
+  },
+  "vf-8-all-new": {
+    "source": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "edition": "All-New 2026",
+    "colors": [
+      {
+        "code": "VF8PH-13",
+        "name": "Đỏ — Solar Ruby",
+        "group": "Màu tiêu chuẩn",
+        "image": "/images/vf8-allnew/VF8PH-13.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-13-swatch.svg"
+      },
+      {
+        "code": "VF8PH-15",
+        "name": "Trắng",
+        "group": "Màu tiêu chuẩn",
+        "image": "/images/vf8-allnew/VF8PH-15.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-15-swatch.svg"
+      },
+      {
+        "code": "VF8PH-21",
+        "name": "Xanh đậm",
+        "group": "Màu tiêu chuẩn",
+        "image": "/images/vf8-allnew/VF8PH-21.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-21-swatch.svg"
+      },
+      {
+        "code": "VF8PH-23",
+        "name": "Xanh nhạt",
+        "group": "Màu tiêu chuẩn",
+        "image": "/images/vf8-allnew/VF8PH-23.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-23-swatch.svg"
+      },
+      {
+        "code": "VF8PH-17",
+        "name": "Tím",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-17.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-17-swatch.svg"
+      },
+      {
+        "code": "VF8PH-19",
+        "name": "Cam — Vitality Orange",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-19.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-19-swatch.svg"
+      },
+      {
+        "code": "VF8PH-14",
+        "name": "Đỏ / nóc đen",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-14.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-14-swatch.svg"
+      },
+      {
+        "code": "VF8PH-16",
+        "name": "Cam / nóc trắng",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-16.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-16-swatch.svg"
+      },
+      {
+        "code": "VF8PH-18",
+        "name": "Tím / nóc trắng",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-18.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-18-swatch.svg"
+      },
+      {
+        "code": "VF8PH-20",
+        "name": "Cam / nóc đen",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-20.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-20-swatch.svg"
+      },
+      {
+        "code": "VF8PH-22",
+        "name": "Xanh đậm / nóc trắng",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-22.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-22-swatch.svg"
+      },
+      {
+        "code": "VF8PH-24",
+        "name": "Xanh nhạt / nóc trắng",
+        "group": "Màu nâng cao",
+        "image": "/images/vf8-allnew/VF8PH-24.webp",
+        "swatch": "/images/vf8-allnew/VF8PH-24-swatch.svg"
+      }
+    ]
   }
 }

@@ -4,6 +4,7 @@ import styles from "./detail.module.css";
 
 type Article = {
   name: string;
+  photos?: { src: string; caption: string }[];
   sections: {
     id: string;
     title: string;
@@ -16,7 +17,7 @@ type Article = {
 const data: Record<string, Article> = articles;
 
 function ArticleBody({ article, prefix, showName }: { article: Article; prefix: string; showName: boolean }) {
-  return <div className={styles.articleEdition} id={prefix}>
+  return <div className={`${styles.articleEdition} ${prefix === "bai-vf-8-all-new" ? styles.uniformPhotos : ""}`} id={prefix}>
     {showName && <h2 className={styles.editionHeading}>{article.name}</h2>}
     <nav className={styles.contents} aria-label={`Mục lục ${article.name}`}>
       {article.sections.map((section, index) => <a key={section.id} href={`#${prefix}-${section.id}`}><span>{index + 1}.</span> {section.title}</a>)}
@@ -39,6 +40,14 @@ function ArticleBody({ article, prefix, showName }: { article: Article; prefix: 
         <figcaption>{section.caption}</figcaption>
       </figure>}
     </section>)}
+    {article.photos && <section className={styles.articleSection}>
+      <h3>Thư viện hình ảnh {article.name}</h3>
+      <div className={styles.photoGrid}>{article.photos.map(photo => <figure key={photo.src}>
+        <a href={photo.src} target="_blank" rel="noreferrer" aria-label={`Xem ảnh lớn: ${photo.caption}`}>
+          <Image src={photo.src} alt={`${article.name} — ${photo.caption}`} width={1200} height={800} sizes="(max-width: 767px) 95vw, 45vw" loading="lazy" />
+        </a><figcaption>{photo.caption}</figcaption>
+      </figure>)}</div>
+    </section>}
   </div>;
 }
 
@@ -54,6 +63,7 @@ export function CarArticle({ slug, name }: { slug: string; name: string }) {
       <a href="#bai-vf-8-new">VF 8 Thế hệ mới</a>
     </div>}
     {editions.map((edition, i) => <ArticleBody key={edition.name} article={edition} prefix={`bai-${i === 1 ? 'vf-8-new' : slug}`} showName={editions.length > 1} />)}
+    {slug === "vf-8-all-new" && <p className={styles.articleDisclaimer}>Nguồn thông số và hình ảnh: <a href="https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026" target="_blank" rel="noreferrer">VinFast VF 8 All-New 2026</a>. Cập nhật 23/09/2026.</p>}
     {slug === "vf-wild" && <p className={styles.articleDisclaimer}>Nguồn: <a href="https://vinfastvietnam.com.vn/vinfast-vf-wild/" target="_blank" rel="noreferrer">Trang tham khảo VF Wild</a> và <a href="https://vinfastauto.com/vn_vi/vinfast-ra-mat-xe-ban-tai-dien-vf-wild-tai-viet-nam" target="_blank" rel="noreferrer">thông cáo VinFast 19/09/2026</a>. Các mục đánh dấu * theo trang tham khảo, cần xác nhận khi tư vấn. Phạm vi mở rộng dùng số liệu thông cáo hãng thay cho thông tin trên 1.100 km ở trang tham khảo.</p>}
     <p className={styles.articleDisclaimer}>Thông số và trang bị áp dụng theo từng phiên bản. Quãng đường theo NEDC/WLTP và thời gian sạc phụ thuộc điều kiện thử nghiệm, trạm sạc và cách sử dụng thực tế. Vui lòng liên hệ tư vấn để xác nhận cấu hình xe trước khi mua.</p>
   </article>;

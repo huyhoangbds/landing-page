@@ -134,3 +134,5 @@
   .quick-links-featured .quick-link { padding: 16px 18px; }
   .quick-links-featured + .section { padding-top: 32px; }
 }
+
+.homepage-banner { display: block; width: 100%; height: auto; }

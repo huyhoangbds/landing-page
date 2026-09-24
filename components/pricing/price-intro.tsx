@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Flame, Phone, ArrowUpRight } from "lucide-react";
 import { QuoteButton } from "@/components/forms/consultation-dialog";
 import { site } from "@/lib/data/site";
-import prices from "@/lib/data/prices.json";
+import prices from "@/lib/data/prices";
 import styles from "./pricing.module.css";
 
 export function PriceIntro() {
@@ -34,7 +34,7 @@ export function PriceIntro() {
           </nav>
           <div className={styles.introCar}>
             <Image
-              src="/images/vinfast-vf8-98yirhq.png"
+              src="/images/vf8-classic-official.webp"
               alt="VinFast VF8"
               width={600}
               height={400}

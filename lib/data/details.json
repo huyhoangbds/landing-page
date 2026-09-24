@@ -264,5 +264,18 @@
         "image": "/images/vf-wild/design.jpg"
       }
     ]
+  },
+  "vf-8-all-new": {
+    "source": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "sections": [
+      {
+        "title": "Ngoại thất",
+        "image": "/images/vf8-allnew/exterior.webp"
+      },
+      {
+        "title": "Nội thất",
+        "image": "/images/vf8-allnew/interior.webp"
+      }
+    ]
   }
 }

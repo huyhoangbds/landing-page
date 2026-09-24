@@ -297,3 +297,21 @@ Còn 6 ô, xếp 3 cột desktop / 2 tablet / 1 mobile; icon và text cùng hàn
 - Latest static export includes all VF Wild updates and 799 million price. Lint/build/TypeScript passed; 9 loan tests passed.
 - deploy-artifacts/landing-page-pages.zip and verification.json prepared locally; archive is ignored by Git. Nested empty landing-page checkout ignored.
 - DEPLOYMENT.md updated for existing GitHub origin/main and GitHub Desktop push flow. Not committed, pushed or published.
+
+## VF 8 All-New and homepage cover — 2026-09-23
+- Supplied September banner optimized WebP, replaced initial carousel slide (index 1). Embedded VF Wild price 699 in user image differs from current 799 card; user informed, card unchanged.
+- Added vf-8-all-new car/route, 786 million reference price from supplied banner; official technical summary and 3 local image assets from vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026. Red Solar Ruby cutout; shared catalogue propagates to menus/forms.
+- New badge, grey VF8 backdrop, standard detail layout. Lint/TypeScript/build 27 routes passed; export references checked. Not committed/pushed/deployed.
+
+### 23/09/2026 — Bộ ảnh VF8 và banner đơn
+- Trang chủ chỉ dùng banner-september-2026.webp, loại bỏ carousel và dữ liệu banner cũ.
+- VF8 All-New: 12 ảnh màu VF8PH-13…24 và mẫu màu từ website chính thức, chia 4 tiêu chuẩn / 8 nâng cao; tên tiếng Việt mô tả ảnh, giữ Solar Ruby và Vitality Orange đã xác nhận.
+- Thêm thư viện 13 ảnh nội/ngoại thất và công nghệ, WebP lưu local, lazy loading.
+- VF8 cũ dùng ảnh product-CE22.webp chính thức từ shop VinFast, đồng bộ cars/prices.
+- Lint, TypeScript, build static 27 trang và kiểm tra tham chiếu ảnh đạt. Chưa push/deploy.
+
+### 24/09/2026 — Cập nhật theo yêu cầu giá và banner
+- Banner dùng bản 10_34_18 ngày 23/09, WebP v2 (1672×941), giữ nguyên chữ/giá trong ảnh theo file cung cấp. Một số giá trong ảnh khác giá người dùng yêu cầu bằng văn bản.
+- Giá từ (triệu): VF2 182, VF3 285, VF5 435, VF6 580, VF7 678, VF8 cũ 786, VF9 1220, VF Wild 799, Limo 630, MPV7 665, EC Van 265. VF8 All-New giữ 786.
+- Bảng giá dùng prices.ts lấy giá từ cars.ts; bỏ bảng giá phiên bản cũ tránh hiển thị giá không được xác nhận. Giữ ID anchor cũ, thêm MPV7/All-New.
+- Ảnh bài viết và thư viện VF8 All-New cùng khung 16:9 contain, không cắt/biến dạng.

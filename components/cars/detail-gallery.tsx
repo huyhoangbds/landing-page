@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import styles from "./detail.module.css";
 
-export type ExteriorColor = { code: string; name: string; image: string; swatch: string };
+export type ExteriorColor = { code: string; name: string; image: string; swatch: string; group?: string };
 export function DetailGallery({ name, images, colors = [] }: {
   name: string;
   images: { src: string; label: string }[];
@@ -33,17 +33,19 @@ export function DetailGallery({ name, images, colors = [] }: {
         <p className={styles.colorName} aria-live="polite">{color.name}</p>
         <div className={styles.colorControls}>
           <button className={styles.colorArrow} type="button" aria-label="Màu trước" onClick={() => change(selected - 1)}><ChevronLeft size={20} /></button>
-          <div className={styles.swatches} role="group" aria-label={`Chọn màu ngoại thất ${name}`}>
-            {colors.map((item, i) => <button key={item.code} type="button" tabIndex={selected === i ? 0 : -1}
+          <div className={styles.swatches} data-color-options role="group" aria-label={`Chọn màu ngoại thất ${name}`}>
+            {colors.map((item, i) => <span className={styles.colorOption} key={item.code}>
+              {item.group && (i === 0 || colors[i - 1].group !== item.group) && <span className={styles.colorGroupHeading}>{item.group}</span>}
+              <button key={item.code} type="button" tabIndex={selected === i ? 0 : -1}
               onKeyDown={(event) => {
                 if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
                 event.preventDefault();
                 const next = event.key === "Home" ? 0 : event.key === "End" ? colors.length - 1 : (i + (event.key === "ArrowRight" ? 1 : -1) + colors.length) % colors.length;
                 change(next);
-                event.currentTarget.parentElement?.querySelectorAll<HTMLButtonElement>("button")[next]?.focus();
+                event.currentTarget.closest("[data-color-options]")?.querySelectorAll<HTMLButtonElement>("button")[next]?.focus();
               }} aria-label={item.name} title={item.name} aria-pressed={selected === i} onClick={() => change(i)}>
               <Image src={item.swatch} alt="" width={36} height={36} sizes="36px" />
-            </button>)}
+            </button></span>)}
           </div>
           <button className={styles.colorArrow} type="button" aria-label="Màu tiếp theo" onClick={() => change(selected + 1)}><ChevronRight size={20} /></button>
         </div>

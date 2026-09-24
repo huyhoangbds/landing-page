@@ -14,7 +14,7 @@ const homeImages: Record<string, { src: string; color: string }> = {
 
 export function CarCard({ car, showcase = false }: { car: Car; showcase?: boolean }) {
   const homeImage = showcase ? homeImages[car.slug] : undefined;
-  const model = car.name.replace(/^VinFast\s+/, "").replace(/\s+/g, "");
+  const model = car.slug === "vf-8-all-new" ? "VF8" : car.name.replace(/^VinFast\s+/, "").replace(/\s+/g, "");
   return (
     <MotionCard className={showcase ? "car-card car-card-showcase" : "car-card"}>
       <Link
@@ -30,7 +30,7 @@ export function CarCard({ car, showcase = false }: { car: Car; showcase?: boolea
           height={420}
           sizes="(max-width: 639px) 95vw, (max-width: 1023px) 48vw, 31vw"
         />
-        {showcase && car.slug === "vf-wild" ? <span className="car-new-badge">New</span> : <span className="car-arrow">
+        {showcase && ["vf-wild", "vf-8-all-new"].includes(car.slug) ? <span className="car-new-badge">New</span> : <span className="car-arrow">
           <ArrowUpRight size={20} />
         </span>}
       </Link>

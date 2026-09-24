@@ -97,3 +97,24 @@
 .editionPicker a { border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px; color: var(--blue); background: var(--background); font-size: 13px; font-weight: 600; }
 .editionHeading { margin-top: 32px; border-left: 4px solid var(--blue); padding-left: 12px; }
 @media (max-width: 767px) { .articleSection p { font-size: 14px; } .articleTableScroll .specTable th, .articleTableScroll .specTable td { padding: 10px; } }
+
+.colorOption { display: contents; }
+.colorGroupHeading { flex-basis: 100%; font-size: 0.85rem; font-weight: 600; text-align: center; margin-top: 6px; }
+.photoGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.photoGrid figure { margin: 0; min-width: 0; }
+.photoGrid img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.photoGrid figcaption { margin-top: 8px; color: var(--muted); }
+@media (max-width: 767px) { .photoGrid { grid-template-columns: 1fr; } }
+
+/* Equal image frames retain the complete photo without stretching or cropping. */
+.uniformPhotos .articleFigure img,
+.uniformPhotos .photoGrid img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: var(--surface);
+}
+.uniformPhotos .photoGrid a { display: block; }
+.uniformPhotos .photoGrid figure { display: flex; flex-direction: column; }
+.uniformPhotos .photoGrid figcaption { min-height: 2.8em; }
